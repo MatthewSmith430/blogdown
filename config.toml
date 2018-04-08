@@ -14,9 +14,9 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
-  subtitle = "Thoughts and comments on data science and social network analysis"
-  logo = "img/Rplot.png"
-  favicon = "img/Rplot.ico"
+  subtitle = "Matthew Smith"
+  logo = "img/B2.png"
+  favicon = "img/B2.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true

@@ -30,3 +30,9 @@ The first provides the case for a network approach to analyse various aspects of
 The second paper presented a multilevel network analysis to examine trade and investment patterns in a high tech sector. See presentation page for conference slides on this paper.
 
 The third paper provided an analysis of the interplay between the international trade network and national competitiveness in the automotive sector. More specifically examining how a nation’s position in an international network of trade and efficient linkages to competitive nations impacts a nation’s competitive performance.  
+
+My thesis can be found at:
+[THESIS_CORPORATE NETWORKS OF INTERNATIONAL INVESTMENT & TRADE](https://www.researchgate.net/publication/319876899_Corporate_networks_of_international_investment_and_trade)
+
+Here is a wordcloud based on my thesis:
+![THESIS](/img/Thesis1.png)

@@ -1,2 +1,2 @@
-## Matthew Smith
-I am postdoc researcher with interests in social network analysis, with a focus on applications to economic networks. 
+## Thoughts and comments on data science and social network analysis
+I am postdoc researcher with interests in social network analysis, with a focus on applications to economic networks. This blog contains information about myself, projects I am working on, R packages I have created and other miscellaneous comments on social network analysis. 
