@@ -24,13 +24,20 @@ As this my very blog post for this site (created using blogdown) I decided to wr
 Throughout my PhD I had to create network from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), and applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file. I did this using excel (as at the time I was not fully familiar with R) and found it very repetitive/laborious task. As I become more familiar with R – I did this in R and wrote a function I could use on any future data. The advantages of using an R function were instantly obvious, the process of data cleaning now took moments. 
 
 I then had a number of functions related to cleaning and analysing trade data scattered across numerous .R files. Therefore, I decided to take the next step and collect all these functions into an R package. It took some time – but it was completely worth it, as creating a package has a number of benefit:  
+
 * All related functions are in one place, and can be easily shared with colleagues. It is much easier to share a package than a set of .R files.  
+
 *  Writing a package provides the opportunity (and in some cases forces you) to improve your code so that it is more streamlined.  
+
 *  Help documentation and examples. Having to write help documentations and examples is a very useful task, as you do not end up coming back to functions where there is little or no explanation of what they do. Furthermore, you can search for the help and guidance on these functions within R in the future.
 
 The most useful guides on how to write an R package are:  
+
 *  http://kbroman.org/pkg_primer/  
+
 *  http://r-pkgs.had.co.nz/
+
+There are number of very useful packages to use when creating an R package including `devtools`,`usethis` and `roxygen2`.
 
 Another point to make before writing an R package is don’t use `%>%` (pipes) in R package functions. 
 
@@ -42,15 +49,18 @@ I also realised that when uploading a package on GitHub a detailed readme is ess
 I have created a number of R packages as repositories on GitHub. 
 
 ## CRAN
-Although you can upload R packages onto GitHub, where others can download and install these packages using devtools, packages can also be uploaded to CRAN. I have uploaded one package onto CRAN: `ITNr`. 
+Although you can upload R packages onto GitHub, where others can download and install these packages using `devtools`, packages can also be uploaded to CRAN. I have uploaded one package onto CRAN: `ITNr`. 
 
-I was somewhat apprehensive about submitting a package to CRAN – as the documentation and online guidance often paints this as a daunting task. I did not necessarily find this the case.
+I was somewhat apprehensive about submitting a package to CRAN – as the documentation and online guidance often paints this as a daunting task. I did not necessarily find this the case - that as long as you follow the package writing duiance - you should not be discouraged from uploading it to CRAN.
 
 However, uploading a package to CRAN and maintaining is a more time consuming process than simply uploading a package to GitHub, where changes can be made easily and quickly. So there is a need to weigh the benefits of maintaining the CRAN submission with having it on GitHub. 
 
-If you are submitting a package to CRAN, some advice based on the feedback I received includes:   
+If you are submitting a package to CRAN, some advice based on the feedback I received includes:  
+
 * Ensure that you thoroughly check your help documentation (make sure there are no typos and that it properly matches the function code).  
+
 * In your R description file, in the Description section, do not start this with “This package”  
+
 * Unwrap examples. I wrote all example with \dontrun{}, and received the following feedback:
 >Your examples are wrapped in \dontrun{}, hence nothing gets tested. Please unwrap the examples if that is feasible and if they can be executed in < 5 sec for each Rd file or create additionally small toy examples”  
 
@@ -100,7 +110,4 @@ image_read("File.png")%>%
 This produced a .ico file I used when making the site.  
 
 Another useful resource for using blogdown can be found [here](https://alison.rbind.io/post/up-and-running-with-blogdown/)
-
-
-
 

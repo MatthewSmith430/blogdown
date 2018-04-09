@@ -9,9 +9,9 @@
   <meta property="og:title" content="Creating R packages, R markdown and blogdown" />
   <meta name="twitter:title" content="Creating R packages, R markdown and blogdown" />
   <meta name="description" content="As this my very blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.
-PackagesThroughout my PhD I had to create network from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), and applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.">
+Packages Throughout my PhD I had to create network from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), and applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.">
   <meta property="og:description" content="As this my very blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.
-PackagesThroughout my PhD I had to create network from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), and applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.">
+Packages Throughout my PhD I had to create network from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), and applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.">
   <meta name="twitter:description" content="As this my very blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to …">
   <meta name="author" content="Matthew Smith"/>
   <link href='/img/B2c.ico' rel='icon' type='image/x-icon'/>
@@ -173,7 +173,7 @@ PackagesThroughout my PhD I had to create network from international trade data
   
   
   &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 6 minutes (1080 words)
+  <i class="fa fa-clock-o"></i> 6 minutes (1112 words)
   
   
 </span>
@@ -197,13 +197,18 @@ PackagesThroughout my PhD I had to create network from international trade data
 <div id="packages" class="section level1">
 <h1>Packages</h1>
 <p>Throughout my PhD I had to create network from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), and applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file. I did this using excel (as at the time I was not fully familiar with R) and found it very repetitive/laborious task. As I become more familiar with R – I did this in R and wrote a function I could use on any future data. The advantages of using an R function were instantly obvious, the process of data cleaning now took moments.</p>
-<p>I then had a number of functions related to cleaning and analysing trade data scattered across numerous .R files. Therefore, I decided to take the next step and collect all these functions into an R package. It took some time – but it was completely worth it, as creating a package has a number of benefit:<br />
-* All related functions are in one place, and can be easily shared with colleagues. It is much easier to share a package than a set of .R files.<br />
-* Writing a package provides the opportunity (and in some cases forces you) to improve your code so that it is more streamlined.<br />
-* Help documentation and examples. Having to write help documentations and examples is a very useful task, as you do not end up coming back to functions where there is little or no explanation of what they do. Furthermore, you can search for the help and guidance on these functions within R in the future.</p>
-<p>The most useful guides on how to write an R package are:<br />
-* <a href="http://kbroman.org/pkg_primer/" class="uri">http://kbroman.org/pkg_primer/</a><br />
-* <a href="http://r-pkgs.had.co.nz/" class="uri">http://r-pkgs.had.co.nz/</a></p>
+<p>I then had a number of functions related to cleaning and analysing trade data scattered across numerous .R files. Therefore, I decided to take the next step and collect all these functions into an R package. It took some time – but it was completely worth it, as creating a package has a number of benefit:</p>
+<ul>
+<li><p>All related functions are in one place, and can be easily shared with colleagues. It is much easier to share a package than a set of .R files.</p></li>
+<li><p>Writing a package provides the opportunity (and in some cases forces you) to improve your code so that it is more streamlined.</p></li>
+<li><p>Help documentation and examples. Having to write help documentations and examples is a very useful task, as you do not end up coming back to functions where there is little or no explanation of what they do. Furthermore, you can search for the help and guidance on these functions within R in the future.</p></li>
+</ul>
+<p>The most useful guides on how to write an R package are:</p>
+<ul>
+<li><p><a href="http://kbroman.org/pkg_primer/" class="uri">http://kbroman.org/pkg_primer/</a></p></li>
+<li><p><a href="http://r-pkgs.had.co.nz/" class="uri">http://r-pkgs.had.co.nz/</a></p></li>
+</ul>
+<p>There are number of very useful packages to use when creating an R package including <code>devtools</code>,<code>usethis</code> and <code>roxygen2</code>.</p>
 <p>Another point to make before writing an R package is don’t use <code>%&gt;%</code> (pipes) in R package functions.</p>
 <div id="github" class="section level2">
 <h2>GitHub</h2>
@@ -213,13 +218,15 @@ PackagesThroughout my PhD I had to create network from international trade data
 </div>
 <div id="cran" class="section level2">
 <h2>CRAN</h2>
-<p>Although you can upload R packages onto GitHub, where others can download and install these packages using devtools, packages can also be uploaded to CRAN. I have uploaded one package onto CRAN: <code>ITNr</code>.</p>
-<p>I was somewhat apprehensive about submitting a package to CRAN – as the documentation and online guidance often paints this as a daunting task. I did not necessarily find this the case.</p>
+<p>Although you can upload R packages onto GitHub, where others can download and install these packages using <code>devtools</code>, packages can also be uploaded to CRAN. I have uploaded one package onto CRAN: <code>ITNr</code>.</p>
+<p>I was somewhat apprehensive about submitting a package to CRAN – as the documentation and online guidance often paints this as a daunting task. I did not necessarily find this the case - that as long as you follow the package writing duiance - you should not be discouraged from uploading it to CRAN.</p>
 <p>However, uploading a package to CRAN and maintaining is a more time consuming process than simply uploading a package to GitHub, where changes can be made easily and quickly. So there is a need to weigh the benefits of maintaining the CRAN submission with having it on GitHub.</p>
-<p>If you are submitting a package to CRAN, some advice based on the feedback I received includes:<br />
-* Ensure that you thoroughly check your help documentation (make sure there are no typos and that it properly matches the function code).<br />
-* In your R description file, in the Description section, do not start this with “This package”<br />
-* Unwrap examples. I wrote all example with , and received the following feedback: &gt;Your examples are wrapped in , hence nothing gets tested. Please unwrap the examples if that is feasible and if they can be executed in &lt; 5 sec for each Rd file or create additionally small toy examples”</p>
+<p>If you are submitting a package to CRAN, some advice based on the feedback I received includes:</p>
+<ul>
+<li><p>Ensure that you thoroughly check your help documentation (make sure there are no typos and that it properly matches the function code).</p></li>
+<li><p>In your R description file, in the Description section, do not start this with “This package”</p></li>
+<li><p>Unwrap examples. I wrote all example with , and received the following feedback: &gt;Your examples are wrapped in , hence nothing gets tested. Please unwrap the examples if that is feasible and if they can be executed in &lt; 5 sec for each Rd file or create additionally small toy examples”</p></li>
+</ul>
 <p>Here is an demonstration of an unwrapped example with toy example (taken from <code>ITNr</code>):</p>
 <pre class="r"><code>#&#39; @examples
 #&#39; require(igraph)
@@ -346,10 +353,6 @@ image_read(&quot;File.png&quot;)%&gt;%
 
       
         <ul class="pager blog-pager">
-          
-            <li class="previous">
-              <a href="/post/2015-07-23-r-rmarkdown/" data-toggle="tooltip" data-placement="top" title="Hello R Markdown">&larr; Previous Post</a>
-            </li>
           
           
         </ul>
