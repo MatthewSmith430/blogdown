@@ -15,8 +15,8 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
   subtitle = "Matthew Smith"
-  logo = "img/B2.png"
-  favicon = "img/B2.ico"
+  logo = "img/B2c.png"
+  favicon = "img/B2c.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true

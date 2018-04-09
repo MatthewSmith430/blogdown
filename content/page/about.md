@@ -9,9 +9,9 @@ My research interests focus on social network analysis, more specifically, the a
 
 I am also interested in the analysis of economic networks, more specifically, the international trade network. Additional interests include:
 
-- Network Analysis of Input – Output Tables
-- Application of longitudinal network models to the international trade network
-- Network Analysis of International Trade Networks 
+- Network analysis of World Input – Output Tables (WIOTs)  
+- Network analysis of International Trade Networks (ITNs)   
+- Analysis of firm level networks
 
 
 ## PhD Thesis
