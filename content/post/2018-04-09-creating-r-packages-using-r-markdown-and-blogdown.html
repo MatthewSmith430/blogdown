@@ -48,8 +48,11 @@ slug: creating-r-packages-using-r-markdown-and-blogdown
 <ul>
 <li><p>Ensure that you thoroughly check your help documentation (make sure there are no typos and that it properly matches the function code).</p></li>
 <li><p>In your R description file, in the Description section, do not start this with “This package”</p></li>
-<li><p>Unwrap examples. I wrote all example with , and received the following feedback: &gt;Your examples are wrapped in , hence nothing gets tested. Please unwrap the examples if that is feasible and if they can be executed in &lt; 5 sec for each Rd file or create additionally small toy examples”</p></li>
+<li><p>Unwrap examples. I wrote all example with , and received the following feedback:</p></li>
 </ul>
+<blockquote>
+<p>Your examples are wrapped in , hence nothing gets tested. Please unwrap the examples if that is feasible and if they can be executed in &lt; 5 sec for each Rd file or create additionally small toy examples”</p>
+</blockquote>
 <p>Here is an demonstration of an unwrapped example with toy example (taken from <code>ITNr</code>):</p>
 <pre class="r"><code>#&#39; @examples
 #&#39; require(igraph)

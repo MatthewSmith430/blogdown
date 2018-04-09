@@ -9,12 +9,12 @@
   <meta property="og:title" content="Creating R packages, R markdown and blogdown" />
   <meta name="twitter:title" content="Creating R packages, R markdown and blogdown" />
   <meta name="description" content="As this my very blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.
-Packages Throughout my PhD I had to create network from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), and applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.">
+PackagesThroughout my PhD I had to create network from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), and applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.">
   <meta property="og:description" content="As this my very blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.
-Packages Throughout my PhD I had to create network from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), and applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.">
+PackagesThroughout my PhD I had to create network from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), and applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.">
   <meta name="twitter:description" content="As this my very blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to …">
   <meta name="author" content="Matthew Smith"/>
-  <link href='/img/B2c.ico' rel='icon' type='image/x-icon'/>
+  <link href='/img/academic.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="/img/B2c.png" />
   <meta name="twitter:image" content="/img/B2c.png" />
   <meta name="twitter:card" content="summary" />
@@ -225,8 +225,11 @@ Packages Throughout my PhD I had to create network from international trade data
 <ul>
 <li><p>Ensure that you thoroughly check your help documentation (make sure there are no typos and that it properly matches the function code).</p></li>
 <li><p>In your R description file, in the Description section, do not start this with “This package”</p></li>
-<li><p>Unwrap examples. I wrote all example with , and received the following feedback: &gt;Your examples are wrapped in , hence nothing gets tested. Please unwrap the examples if that is feasible and if they can be executed in &lt; 5 sec for each Rd file or create additionally small toy examples”</p></li>
+<li><p>Unwrap examples. I wrote all example with , and received the following feedback:</p></li>
 </ul>
+<blockquote>
+<p>Your examples are wrapped in , hence nothing gets tested. Please unwrap the examples if that is feasible and if they can be executed in &lt; 5 sec for each Rd file or create additionally small toy examples”</p>
+</blockquote>
 <p>Here is an demonstration of an unwrapped example with toy example (taken from <code>ITNr</code>):</p>
 <pre class="r"><code>#&#39; @examples
 #&#39; require(igraph)
