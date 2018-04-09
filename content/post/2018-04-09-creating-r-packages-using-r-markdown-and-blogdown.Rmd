@@ -61,7 +61,8 @@ If you are submitting a package to CRAN, some advice based on the feedback I rec
 
 * In your R description file, in the Description section, do not start this with “This package”  
 
-* Unwrap examples. I wrote all example with \dontrun{}, and received the following feedback:
+* Unwrap examples. I wrote all example with \dontrun{}, and received the following feedback:  
+
 >Your examples are wrapped in \dontrun{}, hence nothing gets tested. Please unwrap the examples if that is feasible and if they can be executed in < 5 sec for each Rd file or create additionally small toy examples”  
 
 Here is an demonstration of an unwrapped example with toy example (taken from `ITNr`):
