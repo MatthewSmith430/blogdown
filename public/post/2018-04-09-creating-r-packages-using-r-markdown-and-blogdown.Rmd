@@ -39,7 +39,7 @@ The most useful guides on how to write an R package are:
 
 There are number of very useful packages to use when creating an R package including `devtools`,`usethis` and `roxygen2`.
 
-Another point to make before writing an R package is don’t use `%>%` (pipes) in R package functions. 
+Another point to make before writing an R package is about using `%>%` (pipes) in R package functions. Unless you set up pipes with `usethis`, more specially the `use_pipe()` function, avoid using pipes.
 
 ## GitHub
 When writing a package – you can upload this as a repository on GitHub. If, like me, you are not completely comfortable using the command line, then GitHub Desktop (or equivalents such as GitKracken), is an essential tool. 
