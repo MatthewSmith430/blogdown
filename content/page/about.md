@@ -9,9 +9,11 @@ My research interests focus on social network analysis, more specifically, the a
 
 I am also interested in the analysis of economic networks, more specifically, the international trade network. Additional interests include:
 
-- Network analysis of World Input – Output Tables (WIOTs)  
+- Network analysis of World Input – Output Tables (WIOTs)   
+
 - Network analysis of International Trade Networks (ITNs)   
-- Analysis of firm level networks
+
+- Analysis of firm level networks  
 
 
 ## PhD Thesis
@@ -27,7 +29,7 @@ The first provides the case for a network approach to analyse various aspects of
 4. Fragmentation of Production
 5. Globalisation Vs Regionalisation Debate
 
-The second paper presented a multilevel network analysis to examine trade and investment patterns in a high tech sector. See presentation page for conference slides on this paper.
+The second paper presented a multilevel network analysis to examine trade and investment patterns in a high tech sector.  
 
 The third paper provided an analysis of the interplay between the international trade network and national competitiveness in the automotive sector. More specifically examining how a nation’s position in an international network of trade and efficient linkages to competitive nations impacts a nation’s competitive performance.  
 

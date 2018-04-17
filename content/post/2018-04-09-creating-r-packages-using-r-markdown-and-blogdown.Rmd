@@ -18,7 +18,7 @@ slug: creating-r-packages-using-r-markdown-and-blogdown
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-As this my very blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown. 
+As this my very first blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown. 
 
 # Packages
 Throughout my PhD I had to create network from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), and applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file. I did this using excel (as at the time I was not fully familiar with R) and found it very repetitive/laborious task. As I become more familiar with R – I did this in R and wrote a function I could use on any future data. The advantages of using an R function were instantly obvious, the process of data cleaning now took moments. 
