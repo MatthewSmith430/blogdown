@@ -31,7 +31,7 @@ The package has additional function to process this data into a network of inter
 
 A tutorial of how to use this package can be found [here](https://matthewsmith430.github.io/CompaniesHouse/index.html)
 
-##GVTr
+## GVTr
 
 This package allows to extract and analyse world input out data, extracting Global Value Trees as outlined by:
 
