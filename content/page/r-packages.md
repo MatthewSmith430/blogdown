@@ -38,3 +38,5 @@ This package allows to extract and analyse world input out data, extracting Glob
 Zhu Z, Puliga M, Cerina F, Chessa A, Riccaboni M (2015) Global Value Trees. PLoS ONE 10(5): e0126699. <https://doi.org/10.1371/journal.pone.0126699>
 
 The package contain the wiod data for 2000 -2014, allows to create value added networks from this data, prune into global value trees and visualise these GVTs. 
+
+Further details on the package can be found [here](https://matthewsmith430.github.io/GVTr)
