@@ -2,7 +2,7 @@
 title: R Packages
 comments: FALSE
 ---
-
+<!-- rmarkdown v1 -->
 I have authored a number of R packages, that can all be found on my [GitHub page](https://github.com/MatthewSmith430)  
 
 The key packages are:
@@ -22,6 +22,12 @@ It also provides tools to implement various descriptive analysis and plots of th
 
 A full tutorial can be found at:
 <https://rpubs.com/matt_smith/ITNr>
+
+This package is also available on CRAN.
+
+[![CRAN status](https://www.r-pkg.org/badges/version/ITNr)](https://cran.r-project.org/package=ITNr)
+
+![downloads](https://cranlogs.r-pkg.org/badges/grand-total/ITNr?color=brightgreen)
 
 ## CompaniesHouse
 
