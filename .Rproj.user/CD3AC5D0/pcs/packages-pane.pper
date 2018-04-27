@@ -1,7 +1,7 @@
 {
     "installOptions" : {
         "installDependencies" : true,
-        "installFromRepository" : true,
-        "libraryPath" : "F:/R"
+        "installFromRepository" : false,
+        "libraryPath" : "C:/Users/matt_/Documents/R/win-library/3.5"
     }
 }

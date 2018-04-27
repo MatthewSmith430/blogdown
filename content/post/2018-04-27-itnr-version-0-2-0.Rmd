@@ -1,0 +1,32 @@
+---
+title: ITNr Version 0.2.0
+author: Matthew Smith
+date: '2018-04-27'
+slug: itnr-version-0-2-0
+categories:
+  - R
+tags:
+  - CRAN
+  - R Package
+  - International Trade
+  - SNA
+subtitle: ''
+---
+# International Trade Network Analysis (ITN) in R
+A new version of my package ITNr (0.2.0) is now on [CRAN!](https://cran.r-project.org/web/packages/ITNr/index.html) 
+
+The ITNr package presents a set of functions of to clean trade data, implement desciptitve analysis of the ITN and create a range of plots.
+
+I have updated and corrected the documentation for function is the last version, and have added several new functions. These include:  
+
+* core_periphery_weighted: To identify whether nodes belong to the core/periphery in weighted directed/undirected networks. Using the approach aproach developed by [Ma & Mondragón (2015)](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0119678)
+
+* ITN_map_plot: Creates a plot where the ITN is layered onto a map
+
+```{r world, echo=FALSE,message=FALSE}
+library(ITNr)
+data("ELEnet16")
+ITN_map_plot(ELEnet16)
+```
+
+* ITNcentrality_binary: Calculates centrality measues for a binary network
