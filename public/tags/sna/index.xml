@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sna on Network Science</title>
+    <link>/tags/sna/</link>
+    <description>Recent content in Sna on Network Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</managingEditor>
+    <webMaster>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</webMaster>
+    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/sna/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ITNr Version 0.2.0</title>
+      <link>/post/itnr-version-0-2-0/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <guid>/post/itnr-version-0-2-0/</guid>
+      <description>International Trade Network Analysis (ITN) in RA new version of my package ITNr (0.2.0) is now on CRAN!
+The ITNr package presents a set of functions of to clean trade data, implement desciptitve analysis of the ITN and create a range of plots.
+I have updated and corrected the documentation for function is the last version, and have added several new functions. These include:
+core_periphery_weighted: To identify whether nodes belong to the core/periphery in weighted directed/undirected networks.</description>
+    </item>
+    
+  </channel>
+</rss>

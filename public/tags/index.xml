@@ -24,7 +24,7 @@
     <item>
       <title>Cran</title>
       <link>/tags/cran/</link>
-      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
       <guid>/tags/cran/</guid>
       <description></description>
@@ -40,6 +40,15 @@
     </item>
     
     <item>
+      <title>International Trade</title>
+      <link>/tags/international-trade/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <guid>/tags/international-trade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R Markdown</title>
       <link>/tags/r-markdown/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
@@ -51,9 +60,18 @@
     <item>
       <title>R Package</title>
       <link>/tags/r-package/</link>
-      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
       <guid>/tags/r-package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sna</title>
+      <link>/tags/sna/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <guid>/tags/sna/</guid>
       <description></description>
     </item>
     

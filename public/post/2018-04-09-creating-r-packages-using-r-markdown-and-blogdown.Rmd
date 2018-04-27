@@ -18,12 +18,12 @@ slug: creating-r-packages-using-r-markdown-and-blogdown
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-As this my very blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown. 
+As this my very first blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown. 
 
 # Packages
-Throughout my PhD I had to create network from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), and applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file. I did this using excel (as at the time I was not fully familiar with R) and found it very repetitive/laborious task. As I become more familiar with R – I did this in R and wrote a function I could use on any future data. The advantages of using an R function were instantly obvious, the process of data cleaning now took moments. 
+Throughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file. I did this using excel (as at the time I was not fully familiar with R) and found it a very repetitive/laborious task. As I become more familiar with R – I did this in R and wrote a function I could use on any future data. The advantages of using an R function were instantly obvious, the process of data cleaning now took moments. 
 
-I then had a number of functions related to cleaning and analysing trade data scattered across numerous .R files. Therefore, I decided to take the next step and collect all these functions into an R package. It took some time – but it was completely worth it, as creating a package has a number of benefit:  
+I then had a number of functions related to cleaning and analysing trade data scattered across numerous .R files. Therefore, I decided to take the next step and collect all these functions into an R package. It took some time – but it was completely worth it, as creating a package has a number of benefits:  
 
 * All related functions are in one place, and can be easily shared with colleagues. It is much easier to share a package than a set of .R files.  
 
@@ -36,6 +36,8 @@ The most useful guides on how to write an R package are:
 *  http://kbroman.org/pkg_primer/  
 
 *  http://r-pkgs.had.co.nz/
+
+They provide information on how to set up an R package, write documentation, along with how to write vignettes guides to accompnay your package.
 
 There are number of very useful packages to use when creating an R package including `devtools`,`usethis` and `roxygen2`.
 
@@ -84,7 +86,7 @@ Here is an demonstration of an unwrapped example with toy example (taken from `I
 ```
 
 # R markdown
-I started using R markdown to write detailed readme file to accompany R packages on GitHub. R markdown is great and an essential tool for writing guides to using R, and can even be used to create [presentations](https://rmarkdown.rstudio.com/lesson-11.html). There are a number of resources to help writing R markdown – among them the R markdown cheat sheet and an introduction to r markdown provided by [RStudio](https://rmarkdown.rstudio.com/) 
+I started using R markdown to write detailed readme/vignette files to accompany R packages on GitHub. R markdown is great and an essential tool for writing guides to using R, and can even be used to create [presentations](https://rmarkdown.rstudio.com/lesson-11.html). There are a number of resources to help writing R markdown – among them the R markdown cheat sheet and an introduction to r markdown provided by [RStudio](https://rmarkdown.rstudio.com/) 
 
 I would also highly recommend using [RPubs](https://rpubs.com/) to share R markdown documents – either guides for more public use or to share these documents with colleagues (that include R code and output).  
 
@@ -97,7 +99,7 @@ Whilst you can write R markdown in RStudio, there a number of editors dedicated 
 # Blogdown
 If you choose to make a site using blogdown it is essential you follow the guidance and instruction provided in: https://bookdown.org/yihui/blogdown/. This guide provide all the details you need to produce a blog using blogdown. 
 
-I am using the beautifulhugo theme – which allows an icon at the top. In order to create the icon from a .png file I made use of imagemagick and the magick R package. I installed imagemagick and then ran the following code:
+I am using the beautifulhugo theme – which allows an icon. In order to create the icon from a .png file I made use of imagemagick and the magick R package. I installed imagemagick and then ran the following code:
 
 ```{r magic,eval=FALSE}
 library(magick)

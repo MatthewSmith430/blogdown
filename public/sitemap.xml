@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/itnr-version-0-2-0/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/creating-r-packages-using-r-markdown-and-blogdown/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
   </url>
@@ -14,7 +19,11 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/page/r-packages/</loc>
   </url>
   
   <url>
@@ -34,13 +43,19 @@
   
   <url>
     <loc>/tags/cran/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/github/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/international-trade/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -52,13 +67,17 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/page/projects/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/r/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -76,7 +95,17 @@
   
   <url>
     <loc>/tags/r-package/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/page/r-packages/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/sna/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
