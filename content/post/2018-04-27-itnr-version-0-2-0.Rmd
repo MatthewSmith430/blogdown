@@ -12,7 +12,7 @@ tags:
   - SNA
 subtitle: ''
 ---
-# International Trade Network Analysis (ITN) in R
+# International Trade Network (ITN) Analysis in R
 A new version of my package ITNr (0.2.0) is now on [CRAN!](https://cran.r-project.org/web/packages/ITNr/index.html) 
 
 The ITNr package presents a set of functions of to clean trade data, implement desciptitve analysis of the ITN and create a range of plots.
