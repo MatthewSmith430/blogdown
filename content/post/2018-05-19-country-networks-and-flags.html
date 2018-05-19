@@ -1,0 +1,86 @@
+---
+title: Country Networks and Flags
+author: Matthew Smith
+date: '2018-05-19'
+slug: country-networks-and-flags
+categories:
+  - R
+tags:
+  - R
+  - Country Networks
+  - Visualisation
+subtitle: ''
+---
+
+
+
+<p>Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the <code>ggflags</code> packages and how to use it in network visualisation.</p>
+<p>I am creating this visualisation in R, and relying on a number of packages:</p>
+<ul>
+<li><p><code>ITNr</code> for the international trade network data that we use in the example. However, you the visualisation steps I will outline can be applied to any country level network (that is a set of countries connect by any links - this could be trade, investment etc.)</p></li>
+<li><p><code>ggflags</code> to visualise the nodes as flags. This package is available on GitHub (currently not on CRAN)</p></li>
+<li><p><code>ggnetwork</code> is used to plot the network</p></li>
+<li><p><code>countrycode</code> and <code>magrittr</code> to process node names into the correct form to be used by <code>ggflags</code></p></li>
+<li><p>I also use <code>igraph</code> and <code>intergraph</code> as the example network from <code>ITNr</code> is a <code>igraph</code> object</p></li>
+</ul>
+<div id="load-clean-and-process-network-data" class="section level1">
+<h1>Load, clean and process network data</h1>
+<p>First we load the example data from the <code>ITNr</code>, an example International Trade Network (ITN). We also calculate network centrality metrics, as these can be used later in the visualisation - such as setting node size based on centrality.</p>
+<pre class="r"><code>library(ITNr)
+
+data(&quot;ELEnet16&quot;)
+
+## Centrality Measures
+ITNcent&lt;-ITNcentrality(ELEnet16)
+
+## Add these as attributes to the igraph object
+library(igraph)
+V(ELEnet16)$cent&lt;-ITNcent$Weighted.Out.Degree
+V(ELEnet16)$centALL&lt;-ITNcent$Weighted.Degree.All</code></pre>
+<p>We then need to convert this into an object compatible with <code>ggnetwork</code> so that we can take advantage of the <code>ggflags</code>functionality.</p>
+<pre class="r"><code>library(ggnetwork)
+library(intergraph)
+
+## Convert igraph object to network object
+ITNnet&lt;-asNetwork(ELEnet16)
+
+##Convert this to ggnetwork dataframe
+ITN&lt;-ggnetwork(ITNnet)</code></pre>
+<p>Before we can visualise this data, we need to do some additional cleaning, such as making use the <code>ggflags</code> package can recognise the country names. <code>ggflags</code> needs the country names to be in lowercase and in the form of 2 digit ISO codes - here is where the <code>countrycodes</code> packages is very useful.</p>
+<pre class="r"><code>library(countrycode)
+# Create new column called country
+# Need to make sure the vertex names are characters,
+# as ggnetwork may have converted them to factors.
+
+ITN$country&lt;-countrycode(as.character(ITN$vertex.names),
+                         &quot;iso3c&quot;,&quot;iso2c&quot;)
+
+# In this example - the vertex anmes are 3 digit ISO codes
+# However, countrycode has a wide range of function to 
+# convert country names to 2 sigit iso codes
+
+# We then need to make the codes lowercase
+library(magrittr)
+ITN$country%&lt;&gt;%tolower()</code></pre>
+</div>
+<div id="network-visualisation" class="section level1">
+<h1>Network Visualisation</h1>
+<p>THe data is now in a form, where we can plot the network and make use of the <code>ggflags</code> package. In this example node size is based on weighted out degree centrality and tie size is based on the level of trade in the network (the edge weight in the <code>igraph</code> object)</p>
+<pre class="r"><code>#First install ggflags
+devtools::install_github(&quot;rensa/ggflags&quot;)
+library(ggflags)
+# I would recommend opening a tiff file, so that you get a higher quality visualisation
+tiff(&#39;Example.tiff&#39;, units=&quot;in&quot;, width=6, height=5, res=300)
+
+ggplot(ITN, aes(x = x, y = y, xend = xend, yend = yend,
+                country=country,size=cent)) +
+  geom_edges(size = E(ELEnet16)$weight*.5,#the edge weight from the igraph object
+             color=&quot;grey&quot;) +
+  geom_flag() + 
+  scale_size(range = c(2, 13))+ #Node size scale
+  guides(colour=FALSE,size=FALSE)+ #Remove the legends
+  theme_blank()
+
+dev.off()</code></pre>
+<p><img src="/post/2018-05-19-country-networks-and-flags_files/figure-html/full-1.png" width="672" /></p>
+</div>

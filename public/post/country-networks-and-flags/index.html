@@ -5,9 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Categories</title>
-  <meta property="og:title" content="Categories" />
-  <meta name="twitter:title" content="Categories" />
+  <title>Country Networks and Flags</title>
+  <meta property="og:title" content="Country Networks and Flags" />
+  <meta name="twitter:title" content="Country Networks and Flags" />
+  <meta name="description" content="Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the ggflags packages and how to use it in network visualisation.
+I am creating this visualisation in R, and relying on a number of packages:
+ITNr for the international trade network data that we use in the example. However, you the visualisation steps I will outline can be applied to any country level network (that is a set of countries connect by any links - this could be trade, investment etc.">
+  <meta property="og:description" content="Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the ggflags packages and how to use it in network visualisation.
+I am creating this visualisation in R, and relying on a number of packages:
+ITNr for the international trade network data that we use in the example. However, you the visualisation steps I will outline can be applied to any country level network (that is a set of countries connect by any links - this could be trade, investment etc.">
+  <meta name="twitter:description" content="Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the ggflags packages and how to use it in network …">
   <meta name="author" content="Matthew Smith"/>
   <link href='/img/academic.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="/img/NetworkScience2a.png" />
@@ -15,13 +22,13 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@@SmithMatt90" />
   <meta name="twitter:creator" content="@@SmithMatt90" />
-  <meta property="og:url" content="/categories/" />
+  <meta property="og:url" content="/post/country-networks-and-flags/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Network Science" />
 
   <meta name="generator" content="Hugo 0.38.1" />
-  <link rel="canonical" href="/categories/" />
-  <link rel="alternate" href="/categories/index.xml" type="application/rss+xml" title="Network Science">
+  <link rel="canonical" href="/post/country-networks-and-flags/" />
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Network Science">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -169,9 +176,23 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="categories-heading">
-              <h1>Categories</h1>
+            <div class="post-heading">
+              <h1>Country Networks and Flags</h1>
                 
+                
+                  <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on May 19, 2018
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (497 words)
+  
+  
+</span>
+
+
                 
             </div>
           </div>
@@ -182,70 +203,186 @@
 
 
     
-
-
-
 <div class="container" role="main">
-  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> 
-    <article class="post-preview">
-      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-        
-          <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapser" data-parent="#accordion"
-               href="#" aria-expanded="false" aria-controls="collapser">
-                <div class="panel-heading" role="tab" id="headerr">
-                  <h4 class="panel-title">
-                      r
-                    <span class="badge">3</span>
-                  </h4>
-                </div>
-            </a>
-            <div id="collapser" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingr">
-              <div class="panel-body">
-                <a href="/categories/r/" class="list-group-item view-all">
-                View all</a>
-                <div class="list-group">
-                  
-                    <a href="/post/country-networks-and-flags/" class="list-group-item">Country Networks and Flags</a>
-                  
-                    <a href="/post/itnr-version-0-2-0/" class="list-group-item">ITNr Version 0.2.0</a>
-                  
-                    <a href="/post/creating-r-packages-using-r-markdown-and-blogdown/" class="list-group-item">Creating R packages, R markdown and blogdown</a>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        
-          <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapser-markdown" data-parent="#accordion"
-               href="#" aria-expanded="false" aria-controls="collapser-markdown">
-                <div class="panel-heading" role="tab" id="headerr-markdown">
-                  <h4 class="panel-title">
-                      r-markdown
-                    <span class="badge">1</span>
-                  </h4>
-                </div>
-            </a>
-            <div id="collapser-markdown" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingr-markdown">
-              <div class="panel-body">
-                <a href="/categories/r-markdown/" class="list-group-item view-all">
-                View all</a>
-                <div class="list-group">
-                  
-                    <a href="/post/creating-r-packages-using-r-markdown-and-blogdown/" class="list-group-item">Creating R packages, R markdown and blogdown</a>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        
-      </div>
-    </article>
-  </div>
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the <code>ggflags</code> packages and how to use it in network visualisation.</p>
+<p>I am creating this visualisation in R, and relying on a number of packages:</p>
+<ul>
+<li><p><code>ITNr</code> for the international trade network data that we use in the example. However, you the visualisation steps I will outline can be applied to any country level network (that is a set of countries connect by any links - this could be trade, investment etc.)</p></li>
+<li><p><code>ggflags</code> to visualise the nodes as flags. This package is available on GitHub (currently not on CRAN)</p></li>
+<li><p><code>ggnetwork</code> is used to plot the network</p></li>
+<li><p><code>countrycode</code> and <code>magrittr</code> to process node names into the correct form to be used by <code>ggflags</code></p></li>
+<li><p>I also use <code>igraph</code> and <code>intergraph</code> as the example network from <code>ITNr</code> is a <code>igraph</code> object</p></li>
+</ul>
+<div id="load-clean-and-process-network-data" class="section level1">
+<h1>Load, clean and process network data</h1>
+<p>First we load the example data from the <code>ITNr</code>, an example International Trade Network (ITN). We also calculate network centrality metrics, as these can be used later in the visualisation - such as setting node size based on centrality.</p>
+<pre class="r"><code>library(ITNr)
+
+data(&quot;ELEnet16&quot;)
+
+## Centrality Measures
+ITNcent&lt;-ITNcentrality(ELEnet16)
+
+## Add these as attributes to the igraph object
+library(igraph)
+V(ELEnet16)$cent&lt;-ITNcent$Weighted.Out.Degree
+V(ELEnet16)$centALL&lt;-ITNcent$Weighted.Degree.All</code></pre>
+<p>We then need to convert this into an object compatible with <code>ggnetwork</code> so that we can take advantage of the <code>ggflags</code>functionality.</p>
+<pre class="r"><code>library(ggnetwork)
+library(intergraph)
+
+## Convert igraph object to network object
+ITNnet&lt;-asNetwork(ELEnet16)
+
+##Convert this to ggnetwork dataframe
+ITN&lt;-ggnetwork(ITNnet)</code></pre>
+<p>Before we can visualise this data, we need to do some additional cleaning, such as making use the <code>ggflags</code> package can recognise the country names. <code>ggflags</code> needs the country names to be in lowercase and in the form of 2 digit ISO codes - here is where the <code>countrycodes</code> packages is very useful.</p>
+<pre class="r"><code>library(countrycode)
+# Create new column called country
+# Need to make sure the vertex names are characters,
+# as ggnetwork may have converted them to factors.
+
+ITN$country&lt;-countrycode(as.character(ITN$vertex.names),
+                         &quot;iso3c&quot;,&quot;iso2c&quot;)
+
+# In this example - the vertex anmes are 3 digit ISO codes
+# However, countrycode has a wide range of function to 
+# convert country names to 2 sigit iso codes
+
+# We then need to make the codes lowercase
+library(magrittr)
+ITN$country%&lt;&gt;%tolower()</code></pre>
+</div>
+<div id="network-visualisation" class="section level1">
+<h1>Network Visualisation</h1>
+<p>THe data is now in a form, where we can plot the network and make use of the <code>ggflags</code> package. In this example node size is based on weighted out degree centrality and tie size is based on the level of trade in the network (the edge weight in the <code>igraph</code> object)</p>
+<pre class="r"><code>#First install ggflags
+devtools::install_github(&quot;rensa/ggflags&quot;)
+library(ggflags)
+# I would recommend opening a tiff file, so that you get a higher quality visualisation
+tiff(&#39;Example.tiff&#39;, units=&quot;in&quot;, width=6, height=5, res=300)
+
+ggplot(ITN, aes(x = x, y = y, xend = xend, yend = yend,
+                country=country,size=cent)) +
+  geom_edges(size = E(ELEnet16)$weight*.5,#the edge weight from the igraph object
+             color=&quot;grey&quot;) +
+  geom_flag() + 
+  scale_size(range = c(2, 13))+ #Node size scale
+  guides(colour=FALSE,size=FALSE)+ #Remove the legends
+  theme_blank()
+
+dev.off()</code></pre>
+<p><img src="/post/2018-05-19-country-networks-and-flags_files/figure-html/full-1.png" width="672" /></p>
 </div>
 
+        
+            <hr/>
+            <section id="social-share">
+              <ul class="list-inline footer-links">
+                
 
+
+<li>
+    <a href="//twitter.com/share?url=%2fpost%2fcountry-networks-and-flags%2f&amp;text=Country%20Networks%20and%20Flags&amp;via=%40SmithMatt90"
+       target="_blank" alt="" title="Share on Twitter">
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//plus.google.com/share?url=%2fpost%2fcountry-networks-and-flags%2f" target="_blank" title="Share on Google Plus">
+         <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//www.facebook.com/sharer/sharer.php?u=%2fpost%2fcountry-networks-and-flags%2f" target="_blank" title="Share on Facebook">
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//reddit.com/submit?url=%2fpost%2fcountry-networks-and-flags%2f&amp;title=Country%20Networks%20and%20Flags" target="_blank" title="Share on Reddit">
+         <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-reddit fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//www.linkedin.com/shareArticle?url=%2fpost%2fcountry-networks-and-flags%2f&amp;title=Country%20Networks%20and%20Flags" target="_blank"
+       title="Share on LinkedIn">
+         <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//www.stumbleupon.com/submit?url=%2fpost%2fcountry-networks-and-flags%2f&amp;title=Country%20Networks%20and%20Flags" target="_blank"
+       title="Share on StumbleUpon">
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-stumbleupon fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//www.pinterest.com/pin/create/button/?url=%2fpost%2fcountry-networks-and-flags%2f&amp;description=Country%20Networks%20and%20Flags" target="_blank"
+       title="Share on Pinterest">
+         <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+              </ul>
+            </section>
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="/post/itnr-version-0-2-0/" data-toggle="tooltip" data-placement="top" title="ITNr Version 0.2.0">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
 
     <footer>
   <div class="container">
@@ -288,7 +425,7 @@
           
           <li>
             
-            <a href="/categories/index.xml" title="RSS">
+            <a href="/index.xml" title="RSS">
             
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
