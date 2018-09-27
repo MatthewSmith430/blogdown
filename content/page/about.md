@@ -3,18 +3,21 @@ title: About me
 comments: FALSE
 ---
 
-My name is Matthew Smith and I am currently a postdoctoral researcher at the University of Oxford in the Anthropology department. I am working on a project that aims at testing hypotheses derived from theoretical models of cultural evolution to shed light on how individual factors and cultural transmission networks shape cultural change.
+My name is Matthew Smith and I am currently a lecturer at the University of Greenwich in International Business (IB). I am part of the Centre for Business Network Analysis (CBNA) research centre. 
 
 My research interests focus on social network analysis, more specifically, the application of Exponential Random Graph Models (ERGMs) to explain how observed network structures emerge and multilevel network analysis.
 
 I am also interested in the analysis of economic networks, more specifically, the international trade network. Additional interests include:
 
-- Network analysis of World Input – Output Tables (WIOTs)   
+- Network Analysis of Input – Output Tables
 
-- Network analysis of International Trade Networks (ITNs)   
+- Application of longitudinal network models to the international trade network
 
-- Analysis of firm level networks  
+- Network Analysis of International Trade Networks 
 
+## Other Research Areas
+I recently completed a postdoc at the University of Oxford in the Anthropology department. I was part of a project that aimed at testing hypotheses derived from theoretical models of cultural evolution to shed light on how individual factors and cultural transmission networks shape cultural change.
+![](/page/about_files/OxAnthro1.jpg) 
 
 ## PhD Thesis
 I completed my PhD in international business and economics at the University of Greenwich in 2016, where I made use of advanced social network analysis techniques to inform on features of the global economy.

@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>News</title>
+      <link>/categories/news/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <guid>/categories/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/categories/r/</link>
       <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
