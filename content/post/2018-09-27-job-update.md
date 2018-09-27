@@ -5,7 +5,8 @@ date: '2018-09-27'
 slug: job-update
 categories:
   - news
-tags: []
+tags: 
+  - news
 subtitle: ''
 ---
 

@@ -58,9 +58,18 @@
     </item>
     
     <item>
+      <title>News</title>
+      <link>/tags/news/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <guid>/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
       <guid>/tags/r/</guid>
       <description></description>
@@ -87,16 +96,25 @@
     <item>
       <title>Sna</title>
       <link>/tags/sna/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
       <guid>/tags/sna/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Social Network Analysis</title>
+      <link>/tags/social-network-analysis/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <guid>/tags/social-network-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Visualisation</title>
       <link>/tags/visualisation/</link>
-      <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
       <guid>/tags/visualisation/</guid>
       <description></description>

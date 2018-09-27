@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Network Science</title>
+    <link>/tags/news/</link>
+    <description>Recent content in News on Network Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</managingEditor>
+    <webMaster>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</webMaster>
+    <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Job Update</title>
+      <link>/post/job-update/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <guid>/post/job-update/</guid>
+      <description>In September 2018, I joined the University of Greenwich as a Lecturer in International Business (IB), after completing my postodc at the University of Oxford. I am part of the Centre for Business network Analysis (CBNA), where I hope to make a signifcant contribution to the centre and continue my research on the application of social network analysis to economic areas.</description>
+    </item>
+    
+  </channel>
+</rss>

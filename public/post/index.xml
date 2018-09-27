@@ -22,6 +22,16 @@
     </item>
     
     <item>
+      <title>Network Visualisation in R - Package Comparison</title>
+      <link>/post/network-visualisation-in-r-package-comparison/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <guid>/post/network-visualisation-in-r-package-comparison/</guid>
+      <description>There are a number of packages available to visualisation networks in R - ranging from those which are implement other network analysis features to those which draw on the grammar of graphics visualisation techniques. This blog post demonstrates the differences between these packages for network visualisation - in terms of amount of code required, aesthetics etc.
+DataI will visualise the same network with each package.</description>
+    </item>
+    
+    <item>
       <title>Country Networks and Flags</title>
       <link>/post/country-networks-and-flags/</link>
       <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
