@@ -5,8 +5,8 @@
     <link>/</link>
     <description>Recent content on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</managingEditor>
-    <webMaster>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</webMaster>
+    <managingEditor>M.Smith@greenwich.ac.uk (Matthew Smith)</managingEditor>
+    <webMaster>M.Smith@greenwich.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -16,16 +16,16 @@
       <title>Job Update</title>
       <link>/post/job-update/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/post/job-update/</guid>
-      <description>In September 2018, I joined the University of Greenwich as a Lecturer in International Business (IB), after completing my postodc at the University of Oxford. I am part of the Centre for Business network Analysis (CBNA), where I hope to make a signifcant contribution to the centre and continue my research on the application of social network analysis to economic areas.</description>
+      <description>In September 2018, I joined the University of Greenwich as a Lecturer in International Business (IB), after completing my postodc at the University of Oxford. I am part of the Centre for Business Network Analysis (CBNA), where I hope to make a signifcant contribution to the centre and continue my research on the application of social network analysis to economic areas.</description>
     </item>
     
     <item>
       <title>Network Visualisation in R - Package Comparison</title>
       <link>/post/network-visualisation-in-r-package-comparison/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/post/network-visualisation-in-r-package-comparison/</guid>
       <description>There are a number of packages available to visualisation networks in R - ranging from those which are implement other network analysis features to those which draw on the grammar of graphics visualisation techniques. This blog post demonstrates the differences between these packages for network visualisation - in terms of amount of code required, aesthetics etc.
 DataI will visualise the same network with each package.</description>
@@ -35,7 +35,7 @@ DataI will visualise the same network with each package.</description>
       <title>Country Networks and Flags</title>
       <link>/post/country-networks-and-flags/</link>
       <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/post/country-networks-and-flags/</guid>
       <description>Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the ggflags packages and how to use it in network visualisation.
 I am creating this visualisation in R, and relying on a number of packages:
@@ -46,7 +46,7 @@ I am creating this visualisation in R, and relying on a number of packages:
       <title>ITNr Version 0.2.0</title>
       <link>/post/itnr-version-0-2-0/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/post/itnr-version-0-2-0/</guid>
       <description>International Trade Network (ITN) Analysis in RA new version of my package ITNr (0.2.0) is now on CRAN!
 The ITNr package presents a set of functions of to clean trade data, implement desciptitve analysis of the ITN and create a range of plots.
@@ -58,7 +58,7 @@ I have updated and corrected the documentation for function is the last version,
       <title>Creating R packages, R markdown and blogdown</title>
       <link>/post/creating-r-packages-using-r-markdown-and-blogdown/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/post/creating-r-packages-using-r-markdown-and-blogdown/</guid>
       <description>As this my very first blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.
 PackagesThroughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.</description>
@@ -68,10 +68,9 @@ PackagesThroughout my PhD I had to create networks from international trade dat
       <title>About me</title>
       <link>/page/about-me/</link>
       <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/page/about-me/</guid>
-      <description>My name is Matthew Smith and I am currently a lecturer at the University of Greenwich in International Business (IB). I am part of the Centre for Business Network Analysis (CBNA) research centre.
-My research interests focus on social network analysis, more specifically, the application of Exponential Random Graph Models (ERGMs) to explain how observed network structures emerge and multilevel network analysis.
+      <description>My name is Matthew Smith and I am currently a lecturer at the University of Greenwich in International Business (IB). I am part of the Centre for Business Network Analysis (CBNA) research centre. My research interests focus on social network analysis, more specifically, the application of Exponential Random Graph Models (ERGMs) to explain how observed network structures emerge and multilevel network analysis.
 I am also interested in the analysis of economic networks, more specifically, the international trade network.</description>
     </item>
     
@@ -79,7 +78,7 @@ I am also interested in the analysis of economic networks, more specifically, th
       <title></title>
       <link>/page/r-packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/page/r-packages/</guid>
       <description>ITNrbody, td {font-family: sans-serif;background-color: white;font-size: 12px;margin: 8px;}tt, code, pre {font-family: &#39;DejaVu Sans Mono&#39;, &#39;Droid Sans Mono&#39;, &#39;Lucida Console&#39;, Consolas, Monaco, monospace;}h1 { font-size:2.2em; }h2 { font-size:1.8em; }h3 { font-size:1.4em; }h4 { font-size:1.0em; }h5 { font-size:0.9em; }h6 { font-size:0.8em; }a:visited {color: rgb(50%, 0%, 50%);}pre {	margin-top: 0;max-width: 95%;border: 1px solid #ccc;white-space: pre-wrap;}pre code {display: block; padding: 0.</description>
     </item>
@@ -88,10 +87,9 @@ I am also interested in the analysis of economic networks, more specifically, th
       <title>About me</title>
       <link>/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/page/about/</guid>
-      <description>My name is Matthew Smith and I am currently a lecturer at the University of Greenwich in International Business (IB). I am part of the Centre for Business Network Analysis (CBNA) research centre.
-My research interests focus on social network analysis, more specifically, the application of Exponential Random Graph Models (ERGMs) to explain how observed network structures emerge and multilevel network analysis.
+      <description>My name is Matthew Smith and I am currently a lecturer at the University of Greenwich in International Business (IB). I am part of the Centre for Business Network Analysis (CBNA) research centre. My research interests focus on social network analysis, more specifically, the application of Exponential Random Graph Models (ERGMs) to explain how observed network structures emerge and multilevel network analysis.
 I am also interested in the analysis of economic networks, more specifically, the international trade network.</description>
     </item>
     
@@ -99,7 +97,7 @@ I am also interested in the analysis of economic networks, more specifically, th
       <title>Projects and Publications</title>
       <link>/page/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/page/projects/</guid>
       <description>Projects I have been involved in a number of projects including:
  The Hidden Story: universities and knowledge exchange in the creative industries
@@ -111,7 +109,7 @@ I am also interested in the analysis of economic networks, more specifically, th
       <title>R Packages</title>
       <link>/page/r-packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/page/r-packages/</guid>
       <description>I have authored a number of R packages, that can all be found on my GitHub page
 The key packages are:

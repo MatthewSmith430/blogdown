@@ -5,8 +5,8 @@
     <link>/page/</link>
     <description>Recent content in Pages on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</managingEditor>
-    <webMaster>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</webMaster>
+    <managingEditor>M.Smith@greenwich.ac.uk (Matthew Smith)</managingEditor>
+    <webMaster>M.Smith@greenwich.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Sun, 08 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +16,9 @@
       <title>About me</title>
       <link>/page/about-me/</link>
       <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/page/about-me/</guid>
-      <description>My name is Matthew Smith and I am currently a lecturer at the University of Greenwich in International Business (IB). I am part of the Centre for Business Network Analysis (CBNA) research centre.
-My research interests focus on social network analysis, more specifically, the application of Exponential Random Graph Models (ERGMs) to explain how observed network structures emerge and multilevel network analysis.
+      <description>My name is Matthew Smith and I am currently a lecturer at the University of Greenwich in International Business (IB). I am part of the Centre for Business Network Analysis (CBNA) research centre. My research interests focus on social network analysis, more specifically, the application of Exponential Random Graph Models (ERGMs) to explain how observed network structures emerge and multilevel network analysis.
 I am also interested in the analysis of economic networks, more specifically, the international trade network.</description>
     </item>
     
@@ -27,7 +26,7 @@ I am also interested in the analysis of economic networks, more specifically, th
       <title></title>
       <link>/page/r-packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/page/r-packages/</guid>
       <description>ITNrbody, td {font-family: sans-serif;background-color: white;font-size: 12px;margin: 8px;}tt, code, pre {font-family: &#39;DejaVu Sans Mono&#39;, &#39;Droid Sans Mono&#39;, &#39;Lucida Console&#39;, Consolas, Monaco, monospace;}h1 { font-size:2.2em; }h2 { font-size:1.8em; }h3 { font-size:1.4em; }h4 { font-size:1.0em; }h5 { font-size:0.9em; }h6 { font-size:0.8em; }a:visited {color: rgb(50%, 0%, 50%);}pre {	margin-top: 0;max-width: 95%;border: 1px solid #ccc;white-space: pre-wrap;}pre code {display: block; padding: 0.</description>
     </item>
@@ -36,10 +35,9 @@ I am also interested in the analysis of economic networks, more specifically, th
       <title>About me</title>
       <link>/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/page/about/</guid>
-      <description>My name is Matthew Smith and I am currently a lecturer at the University of Greenwich in International Business (IB). I am part of the Centre for Business Network Analysis (CBNA) research centre.
-My research interests focus on social network analysis, more specifically, the application of Exponential Random Graph Models (ERGMs) to explain how observed network structures emerge and multilevel network analysis.
+      <description>My name is Matthew Smith and I am currently a lecturer at the University of Greenwich in International Business (IB). I am part of the Centre for Business Network Analysis (CBNA) research centre. My research interests focus on social network analysis, more specifically, the application of Exponential Random Graph Models (ERGMs) to explain how observed network structures emerge and multilevel network analysis.
 I am also interested in the analysis of economic networks, more specifically, the international trade network.</description>
     </item>
     
@@ -47,7 +45,7 @@ I am also interested in the analysis of economic networks, more specifically, th
       <title>Projects and Publications</title>
       <link>/page/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/page/projects/</guid>
       <description>Projects I have been involved in a number of projects including:
  The Hidden Story: universities and knowledge exchange in the creative industries
@@ -59,7 +57,7 @@ I am also interested in the analysis of economic networks, more specifically, th
       <title>R Packages</title>
       <link>/page/r-packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/page/r-packages/</guid>
       <description>I have authored a number of R packages, that can all be found on my GitHub page
 The key packages are:

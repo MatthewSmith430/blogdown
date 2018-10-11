@@ -5,8 +5,8 @@
     <link>/categories/</link>
     <description>Recent content in Categories on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</managingEditor>
-    <webMaster>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</webMaster>
+    <managingEditor>M.Smith@greenwich.ac.uk (Matthew Smith)</managingEditor>
+    <webMaster>M.Smith@greenwich.ac.uk (Matthew Smith)</webMaster>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
       <title>News</title>
       <link>/categories/news/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/categories/news/</guid>
       <description></description>
     </item>
@@ -24,7 +24,7 @@
       <title>R</title>
       <link>/categories/r/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/categories/r/</guid>
       <description></description>
     </item>
@@ -33,7 +33,7 @@
       <title>R Markdown</title>
       <link>/categories/r-markdown/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      <author>matthew.smith@anthro.ox.ac.uk (Matthew Smith)</author>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/categories/r-markdown/</guid>
       <description></description>
     </item>

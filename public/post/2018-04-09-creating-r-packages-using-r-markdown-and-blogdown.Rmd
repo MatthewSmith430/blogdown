@@ -37,7 +37,7 @@ The most useful guides on how to write an R package are:
 
 *  http://r-pkgs.had.co.nz/
 
-They provide information on how to set up an R package, write documentation, along with how to write vignettes guides to accompnay your package.
+They provide information on how to set up an R package, write documentation, along with how to write vignettes guides to accompany your package.
 
 There are number of very useful packages to use when creating an R package including `devtools`,`usethis` and `roxygen2`.
 
@@ -53,7 +53,7 @@ I have created a number of R packages as repositories on GitHub.
 ## CRAN
 Although you can upload R packages onto GitHub, where others can download and install these packages using `devtools`, packages can also be uploaded to CRAN. I have uploaded one package onto CRAN: `ITNr`. 
 
-I was somewhat apprehensive about submitting a package to CRAN – as the documentation and online guidance often paints this as a daunting task. I did not necessarily find this the case - that as long as you follow the package writing duiance - you should not be discouraged from uploading it to CRAN.
+I was somewhat apprehensive about submitting a package to CRAN – as the documentation and online guidance often paints this as a daunting task. I did not necessarily find this the case - that as long as you follow the package writing guidance- you should not be discouraged from uploading it to CRAN.
 
 However, uploading a package to CRAN and maintaining is a more time consuming process than simply uploading a package to GitHub, where changes can be made easily and quickly. So there is a need to weigh the benefits of maintaining the CRAN submission with having it on GitHub. 
 

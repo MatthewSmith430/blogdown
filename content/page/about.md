@@ -3,7 +3,8 @@ title: About me
 comments: FALSE
 ---
 
-My name is Matthew Smith and I am currently a lecturer at the University of Greenwich in International Business (IB). I am part of the Centre for Business Network Analysis (CBNA) research centre. 
+My name is Matthew Smith and I am currently a lecturer at the University of Greenwich in International Business (IB). I am part of the Centre for Business Network Analysis (CBNA) research centre.
+![](/page/about_files/PROFILE2.jpg)
 
 My research interests focus on social network analysis, more specifically, the application of Exponential Random Graph Models (ERGMs) to explain how observed network structures emerge and multilevel network analysis.
 
