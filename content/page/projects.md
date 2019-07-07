@@ -9,15 +9,30 @@ I have been involved in a number of projects including:
 
 - [The Hidden Story: universities and knowledge exchange in the creative industries](https://www.hiddenstory.org.uk/)
 
-- Understanding the dynamics of cultural transmission: an initial study of social networks in two Indian societies with contrasting socio-economic structures 
+- Women executives on boards of UK FTSE 350 companies 
 
 ## Publications
 
-### Book Sections
-Smith, Matthew, Gorgoni, Sara and Cronin, Bruce (2018) The international fragmentation of production: a multilevel network approach. Networks of international investment and trade. Vernon Press, Wilmington, DE, USA. ISBN 978-1-62273-065-0 (In Press) 
+### Journals
+Gorgoni, S., Amighini, A. and Smith, M. (2018) Automotive international trade networks: A comparative analysis over the last two decades, Network Science, 6(4), pp. 571–606.
+
+Smith, M., Gorgoni, S. and Cronin, B. (2019) International production and trade in a high-tech industry: A multilevel network analysis, Social Networks, 59, pp. 50–60.
+
+
+
+### Books
+Gorgoni, S., Amighini, A. and Smith, M. (eds.) (2018) Networks of International Trade and Investment: Understanding Globalisation Through the Lens of Network Analysis, Wilmington, DE, Vernon Press.  
+
+
+### Book Chapters
+Smith, M. and Gorgoni, S. (2018) An introduction to network analysis, Networks of International Trade and Investment: Understanding globalisation through the lens of network analysis, p. 1.  
+
+Smith, M. and Gorgoni, S. (2018) Network Analysis and the study of international trade and investment, Networks of International Trade and Investment: Understanding globalisation through the lens of network analysis, p. 25.  
+
+Smith, M., Gorgoni, S. and Cronin, B. (2018) The international fragmentation of production: a multilevel network approach, Networks of International Trade and Investment: Understanding globalisation through the lens of network analysis, p. 185.
+
+### Mongraphs
+Williams, A., Dovey, J., Cronin, B., Garside, P., Flintham, M., Smith, M., Barrett, D., Brooks, R., Boddington, A. and Taylor, F. (2017) The Hidden Story: understanding knowledge exchange partnerships with the creative economy,.
 
 ### Working Papers
-Smith, Matthew, Gorgoni, Sara and Cronin, Bruce (2016) The fragmentation of production and the competitiveness of nations in the automotive sector – A network approach. In: 5th Annual CIRANO-Sam M. Walton College of Business Workshop on Networks in Trade and Finance, Friday, 30 September - Saturday, 1 October 2016, Fayetteville, Arkansas. 
-
-### Monographs
-Williams, Alex, Dovey, John, Cronin, Bruce, Garside, Peter, Flintham, Matthew, Smith, Matthew, Barnett, David, Brooks, Richard, Boddington, Anne and Taylor, Faye (2017) The Hidden Story: Understanding Knowledge Exchange Partnerships with the Creative Economy. Project Report. Kingston University in partnership with University Alliance; UWE Bristol; & Greenwich, Coventry & Sheffield Hallam Universities. 
+Smith, M., Gorgoni, S. and Cronin, B. (2016) The fragmentation of production and the competitiveness of nations in the automotive sector--A network approach.
