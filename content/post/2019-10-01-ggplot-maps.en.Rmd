@@ -148,18 +148,8 @@ google_map() %>%
 library(tidyverse)
 library(here)
 
-yelp_df <- read_csv(here("static", "data", "yelp_df.csv"))
-yelp_df$info<-paste0("<b>Name: </b>",yelp_df$name," ",
-                "<b>Rating: </b>",yelp_df$rating)
-library(googleway)
-key<-"AIzaSyD2Z4xmMtAqqwF8bK1CsyZZI0niuM_iKQg"
-set_key(key = key) #key is the api
-
-l<-google_map() %>%
-  add_markers(
-    data = yelp_df,
-    info_window = "info"
-  )
+lfile<-here("static", "html", "l.RData")
+load(lfile)
 
 library(widgetframe)
 
@@ -265,34 +255,9 @@ The plots show the number of reviews, price and rating. The colours are:
 library(tidyverse)
 library(here)
 
-yelp_df <- read_csv(here("static", "data", "yelp_df.csv"))
-yelp_df$info<-paste0("<b>Name: </b>",yelp_df$name," ",
-                "<b>Rating: </b>",yelp_df$rating)
+hfile<-here("static", "html", "gm.RData")
+load(hfile)
 
-path_to_images <-"https://raw.githubusercontent.com/matthewsmith430/vis_image/master/"
-
-for (i in 1:length(yelp_df$name)){
-  name_place<-yelp_df$name[[i]]
-  
-  
-  file_name<-paste0("figure_",i,"_",name_place,".png")%>%
-    tolower()%>%
-    gsub("[[:space:]]", "", .)
-  
-  yelp_df$image[i]<-paste0(path_to_images, file_name)
-  
-}
-
-library(googleway)
-key<-"AIzaSyD2Z4xmMtAqqwF8bK1CsyZZI0niuM_iKQg"
-set_key(key = key) #key is the api
-
-gm<-google_map() %>%
-  add_markers(
-    data = yelp_df,
-    marker_icon = "image",
-    info_window = "info"
-  )
 library(widgetframe)
 
 frameWidget(gm,height = '400')
