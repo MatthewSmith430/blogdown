@@ -1,0 +1,520 @@
+---
+title: ggplot & maps
+author: Matthew Smith
+date: '2019-10-01'
+slug: ggplot-maps
+categories:
+  - R
+tags:
+  - R
+  - ggplot
+  - maps
+subtitle: ''
+---
+
+<script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/pymjs/pym.v1.js"></script>
+<script src="/rmarkdown-libs/widgetframe-binding/widgetframe.js"></script>
+
+
+<p>Recently, I was attempting to layer plots created using <code>ggplot</code> onto a map. I came across this example, and it was exactly what I wanted. It produced this plot using a package called <code>ggsubplot</code></p>
+<p><img src="/post/2019-10-01-ggplot-maps.en_files/A3Fae.png" /></p>
+<p>However, after trying to install and use <code>ggsubplot</code> I found out that it has been deprecated for some time (now incompatable with current versions of <code>ggplot2</code>) and has been since removed from CRAN, as detailed <a href="https://stackoverflow.com/questions/16028659/plotting-bar-charts-on-map-using-ggplot2">here</a>.</p>
+<p>Therefore, I found an alternative approach to layer plots made using <code>ggplot</code> onto a map - by employing the <code>googleway</code> package. This takes extra steps - but allows you to add ggplots to googlemaps.</p>
+<p>To demonstrate this I will use example data from Yelp - plotting barbers in Manchester, first using markers, then plotting graph showing price and rating information.</p>
+<div id="extracting-example-data" class="section level1">
+<h1>Extracting example data</h1>
+<p>I have used Yelp data for this example, as it is ideal as it has geographic information, along with additional data to create a plot for each location.
+This was extracted pro grammatically in R using the Yelp API.</p>
+<p>In order to use the Yelp API, you need to create an app <a href="https://www.yelp.com/developers/v3/manage_app">through their development area.</a> This allows you to create a client id and api key which you can use to extract data.</p>
+<p>I create the following function, which relies on the <code>httr</code> and <code>jsonlite</code> packages to extract the data, along with the <code>tidyverse</code> to clean it. It requires 6 inputs:</p>
+<ul>
+<li><p>term - what are you searching for</p></li>
+<li><p>location - the area where you want to search</p></li>
+<li><p>limit - how many results do you want to find</p></li>
+<li><p>radius - radius of the location</p></li>
+<li><p>client_id - client id key from Yelp</p></li>
+<li><p>api - api key from Yelp</p></li>
+</ul>
+<pre class="r"><code>library(httr)
+library(jsonlite)
+library(tidyverse) 
+
+yelp_search&lt;-function(term,location,limit, radius,client_id,api){
+  yelp &lt;- &quot;https://api.yelp.com&quot;
+
+  url &lt;- modify_url(yelp, path = c(&quot;v3&quot;, &quot;businesses&quot;, &quot;search&quot;),
+                    query = list(term = term, location = location, 
+                                 limit = limit,
+                                 radius = radius))
+  res &lt;- GET(url, add_headers(&#39;Authorization&#39; = paste(&quot;bearer&quot;, api)))
+  
+  resTEXT&lt;-httr::content(res, as=&quot;text&quot;)
+  JLres&lt;-jsonlite::fromJSON(resTEXT, flatten=TRUE)
+  
+  BUS&lt;-JLres$businesses
+  cat_list&lt;-list()
+  for (i in 1:length(BUS$name)){
+    categories1&lt;-BUS$categories[[i]] %&gt;%
+      as.vector()
+    c2&lt;-as.vector(categories1$title)
+    c3&lt;-paste0(c2, collapse = &quot;, &quot;)
+    cat_list[[i]]&lt;-c3
+    }
+    
+  c4&lt;-unlist(cat_list)
+  
+
+  BUSINESS_DF&lt;-select(BUS,name,rating,review_count,price,phone,
+                      latitude=coordinates.latitude,
+                      longitude=coordinates.longitude,
+                      postcode=location.zip_code)%&gt;%
+    mutate(categories=c4)%&gt;%
+    as_tibble()
+  
+  BUSINESS_DF$price_num&lt;-nchar(BUSINESS_DF$price)
+  
+  return(BUSINESS_DF)
+  
+  }</code></pre>
+<p>In this example we are extracting data for barber shops in Manchester, UK. I filter, only examining the data where there is price information.</p>
+<pre class="r"><code>term &lt;- &quot;barber&quot;
+location &lt;- &quot;Manchester, UK&quot;
+limit &lt;- 20
+radius &lt;- 8000
+#api and client_id are obtained from Yelp developer page
+
+yelp_df &lt;- yelp_search(term,location,limit,radius,client_id,api)%&gt;%
+  filter(!is.na(price_num))</code></pre>
+<table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+name
+</th>
+<th style="text-align:right;">
+rating
+</th>
+<th style="text-align:right;">
+review_count
+</th>
+<th style="text-align:left;">
+price
+</th>
+<th style="text-align:right;">
+phone
+</th>
+<th style="text-align:right;">
+latitude
+</th>
+<th style="text-align:right;">
+longitude
+</th>
+<th style="text-align:left;">
+postcode
+</th>
+<th style="text-align:left;">
+categories
+</th>
+<th style="text-align:right;">
+price_num
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+The Cornershop Barber Shop
+</td>
+<td style="text-align:right;">
+3.5
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:left;">
+£
+</td>
+<td style="text-align:right;">
+4.41612e+11
+</td>
+<td style="text-align:right;">
+53.48280
+</td>
+<td style="text-align:right;">
+-2.234542
+</td>
+<td style="text-align:left;">
+M1 1JF
+</td>
+<td style="text-align:left;">
+Barbers
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mr Male Grooming
+</td>
+<td style="text-align:right;">
+5.0
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:left;">
+£££
+</td>
+<td style="text-align:right;">
+4.41618e+11
+</td>
+<td style="text-align:right;">
+53.48012
+</td>
+<td style="text-align:right;">
+-2.253904
+</td>
+<td style="text-align:left;">
+M3 3AQ
+</td>
+<td style="text-align:left;">
+Barbers, Hair Salons
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Close Male Grooming
+</td>
+<td style="text-align:right;">
+4.5
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:left;">
+££
+</td>
+<td style="text-align:right;">
+4.41612e+11
+</td>
+<td style="text-align:right;">
+53.48409
+</td>
+<td style="text-align:right;">
+-2.231907
+</td>
+<td style="text-align:left;">
+M4 5AZ
+</td>
+<td style="text-align:left;">
+Hair Salons, Barbers
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+BarberBarber
+</td>
+<td style="text-align:right;">
+3.5
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:left;">
+£££
+</td>
+<td style="text-align:right;">
+4.41618e+11
+</td>
+<td style="text-align:right;">
+53.48281
+</td>
+<td style="text-align:right;">
+-2.246458
+</td>
+<td style="text-align:left;">
+M3 2BW
+</td>
+<td style="text-align:left;">
+Barbers
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+KMC Barbers
+</td>
+<td style="text-align:right;">
+5.0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+££
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+53.42315
+</td>
+<td style="text-align:right;">
+-2.183590
+</td>
+<td style="text-align:left;">
+SK4 4NZ
+</td>
+<td style="text-align:left;">
+Barbers
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Urban Gent Hairdressing
+</td>
+<td style="text-align:right;">
+5.0
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+££
+</td>
+<td style="text-align:right;">
+4.47583e+11
+</td>
+<td style="text-align:right;">
+53.48128
+</td>
+<td style="text-align:right;">
+-2.249401
+</td>
+<td style="text-align:left;">
+M3 2PB
+</td>
+<td style="text-align:left;">
+Barbers, Blow Dry/Out Services, Hair Extensions
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Maclure Barbers
+</td>
+<td style="text-align:right;">
+3.5
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:left;">
+£££
+</td>
+<td style="text-align:right;">
+4.41614e+11
+</td>
+<td style="text-align:right;">
+53.48315
+</td>
+<td style="text-align:right;">
+-2.235488
+</td>
+<td style="text-align:left;">
+M4 1NB
+</td>
+<td style="text-align:left;">
+Barbers
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Flanagans
+</td>
+<td style="text-align:right;">
+3.0
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+££
+</td>
+<td style="text-align:right;">
+4.41618e+11
+</td>
+<td style="text-align:right;">
+53.48171
+</td>
+<td style="text-align:right;">
+-2.248858
+</td>
+<td style="text-align:left;">
+M3 2PW
+</td>
+<td style="text-align:left;">
+Barbers
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Palace Barbers
+</td>
+<td style="text-align:right;">
+3.0
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+£
+</td>
+<td style="text-align:right;">
+4.47962e+11
+</td>
+<td style="text-align:right;">
+53.48314
+</td>
+<td style="text-align:right;">
+-2.231941
+</td>
+<td style="text-align:left;">
+M4 1PW
+</td>
+<td style="text-align:left;">
+Barbers
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="map-with-markers" class="section level1">
+<h1>Map with markers</h1>
+<p>the first thing that you can do with <code>googleway</code> is to map the data on google maps with markers.</p>
+<p>You can include additional information that will appear when you click on the marker. To do this we add an extra column to the dataframe with the info that will appear when you click on the marker. In this case it is the name and rating.</p>
+<pre class="r"><code>yelp_df$info&lt;-paste0(&quot;&lt;b&gt;Name: &lt;/b&gt;&quot;,yelp_df$name,&quot; &quot;,
+                &quot;&lt;b&gt;Rating: &lt;/b&gt;&quot;,yelp_df$rating)</code></pre>
+<p>We then plot this data with <code>googleway</code>. However, before using <code>googleway</code> you need to register with google maps and obtain an api key, details on how to do this are provided <a href="https://developers.google.com/maps/documentation/javascript/tutorial">here</a></p>
+<p>In this example we refer to the google map api as <code>key</code>.</p>
+<pre class="r"><code>library(googleway)
+library(tidyverse)
+
+set_key(key = key) #key is the api
+
+google_map() %&gt;%
+  add_markers(
+    data = yelp_df,
+    info_window = &quot;info&quot;
+  )</code></pre>
+<div id="htmlwidget-1" style="width:100%;height:400px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"url":"/post/2019-10-01-ggplot-maps.en_files/figure-html//widgets/widget_map1_run.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<p>You can also alter the colours of the markers, instructions on how to do this can be found <a href="https://stackoverflow.com/questions/53836446/r-googleway-change-marker-colors">here</a></p>
+</div>
+<div id="map-with-plots" class="section level1">
+<h1>Map with plots</h1>
+<p>To replace the markers with plots, there are a number of steps we have to take:</p>
+<ul>
+<li>Create the plots with <code>ggplot</code><br />
+</li>
+<li>Save plots to a file and create a link for the file<br />
+</li>
+<li>Re-plot with <code>googleway</code></li>
+</ul>
+<div id="create-the-plots" class="section level2">
+<h2>Create the plots</h2>
+<p>We create the plots with <code>ggplot</code> In this example, I am plotting a bar plot for each firm, with firm rating, number of reviews and price.
+The theme is altered to remove text from the plot, and to make the background transparent.</p>
+<p>In <code>ggsave</code> the width and height is the size of the plot/file. You might want to adjust to find the most suitable size.</p>
+<pre class="r"><code>library(tidyverse)
+library(reshape2)
+for(i in 1:length(yelp_df$name)) {
+  name_place&lt;-yelp_df$name[[i]]
+  yp&lt;-select(yelp_df,name,rating,review_count,price_num)%&gt;%
+    melt()
+  p &lt;- ggplot(subset(yp, name==name_place), 
+              aes(variable, value,  fill = variable)) + 
+    geom_bar(stat=&quot;identity&quot;, show.legend=FALSE)+
+    theme(axis.title.x=element_blank(),
+          axis.text.x=element_blank(),
+          axis.text.y=element_blank(),
+          axis.ticks.y=element_blank(),
+          axis.ticks.x=element_blank(),
+          axis.title.y=element_blank(),
+          panel.background = element_rect(fill = &quot;transparent&quot;), # bg of the panel
+          plot.background = element_rect(fill = &quot;transparent&quot;, color = NA), # bg of the plot
+          panel.grid.major = element_blank(), # get rid of major grid
+          panel.grid.minor = element_blank(), # get rid of minor grid
+          legend.background = element_rect(fill = &quot;transparent&quot;), # get rid of legend bg
+          legend.box.background = element_rect(fill = &quot;transparent&quot;) # get rid of legend panel bg
+)
+  file_name&lt;-paste0(&quot;figure_&quot;,i,&quot;_&quot;,name_place,&quot;.png&quot;)%&gt;%
+    tolower()%&gt;%
+    gsub(&quot;[[:space:]]&quot;, &quot;&quot;, .)
+  
+  ggsave(file_name, p,width=0.6,height=0.3,
+           bg = &quot;transparent&quot;)
+}</code></pre>
+<p>I then create a link to the images. To do this I have created a GitHub repository, where I have saved the images. This allows me to use the following link structure.</p>
+<pre class="r"><code>path_to_images &lt;-&quot;https://raw.githubusercontent.com/matthewsmith430/vis_image/master/&quot;
+
+for (i in 1:length(yelp_df$name)){
+  name_place&lt;-yelp_df$name[[i]]
+  
+  
+  file_name&lt;-paste0(&quot;figure_&quot;,i,&quot;_&quot;,name_place,&quot;.png&quot;)%&gt;%
+    tolower()%&gt;%
+    gsub(&quot;[[:space:]]&quot;, &quot;&quot;, .)
+  
+  yelp_df$image[i]&lt;-paste0(path_to_images, file_name)
+  
+}</code></pre>
+</div>
+<div id="add-plots-to-the-map" class="section level2">
+<h2>Add plots to the map</h2>
+<pre class="r"><code>library(googleway)
+library(tidyverse)
+
+set_key(key = key) #key is the api
+
+google_map() %&gt;%
+  add_markers(
+    data = yelp_df,
+    marker_icon = &quot;image&quot;,
+    info_window = &quot;info&quot;
+  )</code></pre>
+<p>The plots show the number of reviews, price and rating. The colours are:</p>
+<ul>
+<li><p>Green = Review Count</p></li>
+<li><p>Red = Rating</p></li>
+<li><p>Blue = Price</p></li>
+</ul>
+<div id="htmlwidget-2" style="width:100%;height:400px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"url":"/post/2019-10-01-ggplot-maps.en_files/figure-html//widgets/widget_map2_run.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>

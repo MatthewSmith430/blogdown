@@ -40,6 +40,15 @@
     </item>
     
     <item>
+      <title>Ggplot</title>
+      <link>/tags/ggplot/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
+      <guid>/tags/ggplot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Github</title>
       <link>/tags/github/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
@@ -58,6 +67,15 @@
     </item>
     
     <item>
+      <title>Maps</title>
+      <link>/tags/maps/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
+      <guid>/tags/maps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>News</title>
       <link>/tags/news/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
@@ -69,7 +87,7 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
       <guid>/tags/r/</guid>
       <description></description>

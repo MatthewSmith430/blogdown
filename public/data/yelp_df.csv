@@ -1,0 +1,10 @@
+name,rating,review_count,price,phone,latitude,longitude,postcode,categories,price_num
+The Cornershop Barber Shop,3.5,12,£,4.41612E+11,53.48279979,-2.234541478,M1 1JF,Barbers,1
+Mr Male Grooming,5,6,£££,4.41618E+11,53.480117,-2.253904,M3 3AQ,"Barbers, Hair Salons",3
+Close Male Grooming,4.5,6,££,4.41612E+11,53.48408715,-2.231906484,M4 5AZ,"Hair Salons, Barbers",2
+BarberBarber,3.5,9,£££,4.41618E+11,53.48280706,-2.246457804,M3 2BW,Barbers,3
+KMC Barbers,5,1,££,,53.42314809,-2.183590426,SK4 4NZ,Barbers,2
+Urban Gent Hairdressing,5,2,££,4.47583E+11,53.48128442,-2.249401367,M3 2PB,"Barbers, Blow Dry/Out Services, Hair Extensions",2
+Maclure Barbers,3.5,6,£££,4.41614E+11,53.48315006,-2.235487731,M4 1NB,Barbers,3
+Flanagans,3,3,££,4.41618E+11,53.4817092,-2.2488581,M3 2PW,Barbers,2
+Palace Barbers,3,3,£,4.47962E+11,53.48314268,-2.231941223,M4 1PW,Barbers,1
