@@ -94,6 +94,8 @@ ggnet2(net, node.size = 6,
 # Networks & Plotly
 The `plotly` graphing library in R allows you to make interactive, publication-quality graphs online. This library can also be used to plot networks, to make interactive online network visualisations. 
 
+*Update: There was a bug in the previous version. Many thanks to Daniel Kiser for hihglighting this and providing the solution.*
+
 ```{r plotly,message=FALSE, warning=FALSE}
 library(plotly)
 library(igraph)
@@ -122,9 +124,11 @@ network <- plot_ly(x = ~Xn, y = ~Yn, #Node points
 
 #Create edges
 edge_shapes <- list()
+names(Xn) <- names(vs)
+names(Yn) <- names(vs)
 for(i in 1:Ne) {
-  v0 <- es[i,]$V1
-  v1 <- es[i,]$V2
+  v0 <- as.character(es[i,]$V1)
+  v1 <- as.character(es[i,]$V2)
   
   edge_shape = list(
     type = "line",
@@ -137,6 +141,7 @@ for(i in 1:Ne) {
   
   edge_shapes[[i]] <- edge_shape
 }
+
 
 axis <- list(title = "", showgrid = FALSE, 
              showticklabels = FALSE, zeroline = FALSE)

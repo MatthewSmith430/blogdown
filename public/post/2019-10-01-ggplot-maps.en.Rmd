@@ -144,7 +144,7 @@ google_map() %>%
 ```
 
 
-```{r map1_run,eval=TRUE,echo=FALSE,warning=FALSE,message=FALSE,width = 5, height = 5}
+```{r map1_run,eval=FALSE,echo=FALSE,warning=FALSE,message=FALSE,width = 5, height = 5}
 library(tidyverse)
 library(here)
 
@@ -249,7 +249,7 @@ The plots show the number of reviews, price and rating. The colours are:
 
 * Blue = Price  
 
-```{r map2_run,eval=TRUE,echo=FALSE,warning=FALSE,message=FALSE}
+```{r map2_run,eval=FALSE,echo=FALSE,warning=FALSE,message=FALSE}
 
 
 library(tidyverse)

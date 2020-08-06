@@ -44,11 +44,14 @@ googleAnalytics = "UA-150532545-1"
   github = "MatthewSmith430"
   twitter = "@SmithMatt90"
   linkedin = "matthew-smith-71493742"
+  orcid = "https://orcid.org/0000-0002-3430-2176"
+  google-scholar = "https://scholar.google.com/citations?user=sM6feS4AAAAJ&hl=en"
 
 [[menu.main]]
     name = "Blog"
     url = ""
     weight = 1
+
 
 [[menu.main]]
     name = "About"
