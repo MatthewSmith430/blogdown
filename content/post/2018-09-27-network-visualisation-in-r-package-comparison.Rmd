@@ -94,7 +94,10 @@ ggnet2(net, node.size = 6,
 # Networks & Plotly
 The `plotly` graphing library in R allows you to make interactive, publication-quality graphs online. This library can also be used to plot networks, to make interactive online network visualisations. 
 
-*Update: There was a bug in the previous version. Many thanks to Daniel Kiser for hihglighting this and providing the solution.*
+*Update: There was a bug in the previous version. Many thanks to Daniel Kiser for highlighting this and providing the solution.*
+`r emo::ji("+1")`
+
+
 
 ```{r plotly,message=FALSE, warning=FALSE}
 library(plotly)

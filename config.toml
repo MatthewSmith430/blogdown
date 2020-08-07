@@ -12,6 +12,7 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
 googleAnalytics = "UA-150532545-1"
+enableEmoji= true
 
 [Params]
   subtitle = "Matthew Smith"
