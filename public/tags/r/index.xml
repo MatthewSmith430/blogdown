@@ -5,8 +5,8 @@
     <link>/tags/r/</link>
     <description>Recent content in R on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>M.Smith@greenwich.ac.uk (Matthew Smith)</managingEditor>
-    <webMaster>M.Smith@greenwich.ac.uk (Matthew Smith)</webMaster>
+    <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
+    <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>ggplot &amp; maps</title>
       <link>/post/ggplot-maps/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
+      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>/post/ggplot-maps/</guid>
       <description>Recently, I was attempting to layer plots created using ggplot onto a map. I came across this example, and it was exactly what I wanted. It produced this plot using a package called ggsubplot
 However, after trying to install and use ggsubplot I found out that it has been deprecated for some time (now incompatable with current versions of ggplot2) and has been since removed from CRAN, as detailed here.</description>
@@ -26,7 +26,7 @@ However, after trying to install and use ggsubplot I found out that it has been 
       <title>Network Visualisation in R - Package Comparison</title>
       <link>/post/network-visualisation-in-r-package-comparison/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
+      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>/post/network-visualisation-in-r-package-comparison/</guid>
       <description>There are a number of packages available to visualisation networks in R - ranging from those which are implement other network analysis features to those which draw on the grammar of graphics visualisation techniques. This blog post demonstrates the differences between these packages for network visualisation - in terms of amount of code required, aesthetics etc.
 DataI will visualise the same network with each package.</description>
@@ -36,7 +36,7 @@ DataI will visualise the same network with each package.</description>
       <title>Country Networks and Flags</title>
       <link>/post/country-networks-and-flags/</link>
       <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
+      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>/post/country-networks-and-flags/</guid>
       <description>Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the ggflags packages and how to use it in network visualisation.
 I am creating this visualisation in R, and relying on a number of packages:

@@ -26,6 +26,8 @@ I am creating this visualisation in R, and relying on a number of packages:
 
 - I also use `igraph` and `intergraph` as the example network from `ITNr` is a `igraph` object
 
+*Update: An example of a published article using these flag network visualisations can be found [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/twec.13006)*
+
 # Load, clean and process network data
 First we load the example data from the `ITNr`, an example International Trade Network (ITN). We also calculate network centrality metrics, as these can be used later in the visualisation - such as setting node size based on centrality. 
 

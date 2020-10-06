@@ -2,7 +2,7 @@
 title: R Packages
 comments: FALSE
 ---
-<!-- rmarkdown v1 -->
+
 I have authored a number of R packages, that can all be found on my [GitHub page](https://github.com/MatthewSmith430)  
 
 The key packages are:

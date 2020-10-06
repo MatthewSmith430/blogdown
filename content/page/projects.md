@@ -7,18 +7,22 @@ comments: FALSE
 
 I have been involved in a number of projects including:
 
+- Fragmentation of production  
+
 - [The Hidden Story: universities and knowledge exchange in the creative industries](https://www.hiddenstory.org.uk/)
 
 - Women executives on boards of UK FTSE 350 companies 
 
+- Knowledge exchange and inter-organisational collaboration in industrial decarbonisation
+
 ## Publications
 
 ### Journals
-Gorgoni, S., Amighini, A. and Smith, M. (2018) Automotive international trade networks: A comparative analysis over the last two decades, Network Science, 6(4), pp. 571–606.
+Gorgoni, S., Amighini, A. and Smith, M. (2018) Automotive international trade networks: A comparative analysis over the last two decades, Network Science, 6(4), pp. 571–606.  
 
-Smith, M., Gorgoni, S. and Cronin, B. (2019) International production and trade in a high-tech industry: A multilevel network analysis, Social Networks, 59, pp. 50–60.
+Smith, M., Gorgoni, S. and Cronin, B. (2019) International production and trade in a high-tech industry: A multilevel network analysis, Social Networks, 59, pp. 50–60.  
 
-
+Smith, M. and Sarabi, Y. (2020) UK trading patterns within and between regions in the automotive sector—A network analysis, The World Economy, Wiley Online Library.  
 
 ### Books
 Gorgoni, S., Amighini, A. and Smith, M. (eds.) (2018) Networks of International Trade and Investment: Understanding Globalisation Through the Lens of Network Analysis, Wilmington, DE, Vernon Press.  

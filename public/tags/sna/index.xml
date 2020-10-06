@@ -5,8 +5,8 @@
     <link>/tags/sna/</link>
     <description>Recent content in Sna on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>M.Smith@greenwich.ac.uk (Matthew Smith)</managingEditor>
-    <webMaster>M.Smith@greenwich.ac.uk (Matthew Smith)</webMaster>
+    <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
+    <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/sna/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Network Visualisation in R - Package Comparison</title>
       <link>/post/network-visualisation-in-r-package-comparison/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
+      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>/post/network-visualisation-in-r-package-comparison/</guid>
       <description>There are a number of packages available to visualisation networks in R - ranging from those which are implement other network analysis features to those which draw on the grammar of graphics visualisation techniques. This blog post demonstrates the differences between these packages for network visualisation - in terms of amount of code required, aesthetics etc.
 DataI will visualise the same network with each package.</description>
@@ -26,7 +26,7 @@ DataI will visualise the same network with each package.</description>
       <title>ITNr Version 0.2.0</title>
       <link>/post/itnr-version-0-2-0/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith@greenwich.ac.uk (Matthew Smith)</author>
+      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>/post/itnr-version-0-2-0/</guid>
       <description>International Trade Network (ITN) Analysis in RA new version of my package ITNr (0.2.0) is now on CRAN!
 The ITNr package presents a set of functions of to clean trade data, implement desciptitve analysis of the ITN and create a range of plots.
