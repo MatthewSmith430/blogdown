@@ -5,7 +5,6 @@ date: '2021-03-15'
 slug: r-packages
 categories: []
 tags: []
-output: html_document
 ---
 
 I have authored a number of R packages, that can all be found on my [GitHub page](https://github.com/MatthewSmith430)  
