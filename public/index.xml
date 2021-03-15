@@ -21,7 +21,7 @@ The key packages are:
 GVTr
 ITNrThis package provides a set of function to clean and process international trade data into a network.
 It also provides tools to implement various descriptive analysis and plots of the international trade network.
-A full tutorial can be found at:https://rpubs.</description>
+This package is also available on CRAN.</description>
     </item>
     
     <item>

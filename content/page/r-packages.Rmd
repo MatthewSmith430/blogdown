@@ -22,16 +22,13 @@ The key packages are:
 
 This package provides a set of function to clean and process international trade data into a network.
 
-It also provides tools to implement various descriptive analysis and plots of the international trade network.
-
-A full tutorial can be found at:
-<https://rpubs.com/matt_smith/ITNr>
+It also provides tools to implement various descriptive analysis and plots of the international trade network.  
 
 This package is also available on CRAN.
 
 [![CRAN status](https://www.r-pkg.org/badges/version/ITNr)](https://cran.r-project.org/package=ITNr)
 
-![downloads](https://cranlogs.r-pkg.org/badges/grand-total/ITNr?color=brightgreen)
+![](https://cranlogs.r-pkg.org/badges/grand-total/ITNr?color=brightgreen)
 
 ## CompaniesHouse
 
