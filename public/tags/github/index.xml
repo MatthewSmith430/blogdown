@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Github on Network Science</title>
+    <title>GitHub on Network Science</title>
     <link>https://matthewsmith.rbind.io/tags/github/</link>
-    <description>Recent content in Github on Network Science</description>
+    <description>Recent content in GitHub on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
-    <lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://matthewsmith.rbind.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://matthewsmith.rbind.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating R packages, R markdown and blogdown</title>
       <link>https://matthewsmith.rbind.io/post/creating-r-packages-using-r-markdown-and-blogdown/</link>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Network Science</title>
@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
-    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://matthewsmith.rbind.io/page/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://matthewsmith.rbind.io/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R Packages</title>
       <link>https://matthewsmith.rbind.io/page/r-packages/</link>
@@ -30,25 +26,14 @@ A full tutorial can be found at:https://rpubs.</description>
     
     <item>
       <title>About me</title>
-      <link>https://matthewsmith.rbind.io/page/about-me/</link>
-      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/page/about-me/</guid>
-      <description>My name is Matthew Smith and I am currently a lecturer at the University of Greenwich in International Business (IB). I am part of the Centre for Business Network Analysis (CBNA) research centre.My research interests focus on social network analysis, more specifically, the application of Exponential Random Graph Models (ERGMs) to explain how observed network structures emerge and multilevel network analysis.
-I am also interested in the analysis of economic networks, more specifically, the international trade network.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
       <link>https://matthewsmith.rbind.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>https://matthewsmith.rbind.io/page/about/</guid>
       <description>My name is Matthew Smith and I am currently a Lecturer in Strategy at Edinburgh Napier University. My research interests focus on the application of social network analysis to a range of problems in international business and management. These include:
- Analysis of two-mode and one-mode networks of interlocking directorates
- Women executives on boards of UK FTSE 350 companies
- Global production networks and Global Value Chains(GVCs)
- Network Analysis of International Trade Networks</description>
+  Analysis of two-mode and one-mode networks of interlocking directorates
+  Women executives on boards of UK FTSE 350 companies
+  Global production networks and Global Value Chains(GVCs)</description>
     </item>
     
     <item>
@@ -58,10 +43,10 @@ I am also interested in the analysis of economic networks, more specifically, th
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>https://matthewsmith.rbind.io/page/projects/</guid>
       <description>Projects I have been involved in a number of projects including:
- Fragmentation of production
- The Hidden Story: universities and knowledge exchange in the creative industries
- Women executives on boards of UK FTSE 350 companies
- Knowledge exchange and inter-organisational collaboration in industrial decarbonisation
+  Fragmentation of production
+  The Hidden Story: universities and knowledge exchange in the creative industries
+  Women executives on boards of UK FTSE 350 companies
+  Knowledge exchange and inter-organisational collaboration in industrial decarbonisation
   Publications Journals Gorgoni, S., Amighini, A. and Smith, M. (2018) Automotive international trade networks: A comparative analysis over the last two decades, Network Science, 6(4), pp.</description>
     </item>
     
