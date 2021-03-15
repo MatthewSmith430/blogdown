@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Network Science</title>
-    <link>/categories/</link>
+    <link>https://matthewsmith.rbind.io/categories/</link>
     <description>Recent content in Categories on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://matthewsmith.rbind.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>News</title>
-      <link>/categories/news/</link>
+      <link>https://matthewsmith.rbind.io/categories/news/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/categories/news/</guid>
+      <guid>https://matthewsmith.rbind.io/categories/news/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>https://matthewsmith.rbind.io/categories/r/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/categories/r/</guid>
+      <guid>https://matthewsmith.rbind.io/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/categories/r-markdown/</link>
+      <link>https://matthewsmith.rbind.io/categories/r-markdown/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/categories/r-markdown/</guid>
+      <guid>https://matthewsmith.rbind.io/categories/r-markdown/</guid>
       <description></description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maps on Network Science</title>
-    <link>/tags/maps/</link>
+    <link>https://matthewsmith.rbind.io/tags/maps/</link>
     <description>Recent content in Maps on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/maps/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://matthewsmith.rbind.io/tags/maps/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ggplot &amp; maps</title>
-      <link>/post/ggplot-maps/</link>
+      <link>https://matthewsmith.rbind.io/post/ggplot-maps/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/post/ggplot-maps/</guid>
+      <guid>https://matthewsmith.rbind.io/post/ggplot-maps/</guid>
       <description>Recently, I was attempting to layer plots created using ggplot onto a map. I came across this example, and it was exactly what I wanted. It produced this plot using a package called ggsubplot
 However, after trying to install and use ggsubplot I found out that it has been deprecated for some time (now incompatable with current versions of ggplot2) and has been since removed from CRAN, as detailed here.</description>
     </item>

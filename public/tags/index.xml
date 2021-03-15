@@ -2,139 +2,139 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Network Science</title>
-    <link>/tags/</link>
+    <link>https://matthewsmith.rbind.io/tags/</link>
     <description>Recent content in Tags on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://matthewsmith.rbind.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blogdown</title>
-      <link>/tags/blogdown/</link>
+      <link>https://matthewsmith.rbind.io/tags/blogdown/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/blogdown/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Country Networks</title>
-      <link>/tags/country-networks/</link>
+      <link>https://matthewsmith.rbind.io/tags/country-networks/</link>
       <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/country-networks/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/country-networks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cran</title>
-      <link>/tags/cran/</link>
+      <link>https://matthewsmith.rbind.io/tags/cran/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/cran/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/cran/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggplot</title>
-      <link>/tags/ggplot/</link>
+      <link>https://matthewsmith.rbind.io/tags/ggplot/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/ggplot/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/ggplot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>/tags/github/</link>
+      <link>https://matthewsmith.rbind.io/tags/github/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/github/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>International Trade</title>
-      <link>/tags/international-trade/</link>
+      <link>https://matthewsmith.rbind.io/tags/international-trade/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/international-trade/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/international-trade/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maps</title>
-      <link>/tags/maps/</link>
+      <link>https://matthewsmith.rbind.io/tags/maps/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/maps/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/maps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>News</title>
-      <link>/tags/news/</link>
+      <link>https://matthewsmith.rbind.io/tags/news/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/news/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/news/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://matthewsmith.rbind.io/tags/r/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/r/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
+      <link>https://matthewsmith.rbind.io/tags/r-markdown/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/r-markdown/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Package</title>
-      <link>/tags/r-package/</link>
+      <link>https://matthewsmith.rbind.io/tags/r-package/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/r-package/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/r-package/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sna</title>
-      <link>/tags/sna/</link>
+      <link>https://matthewsmith.rbind.io/tags/sna/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/sna/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/sna/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social Network Analysis</title>
-      <link>/tags/social-network-analysis/</link>
+      <link>https://matthewsmith.rbind.io/tags/social-network-analysis/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/social-network-analysis/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/social-network-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visualisation</title>
-      <link>/tags/visualisation/</link>
+      <link>https://matthewsmith.rbind.io/tags/visualisation/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/visualisation/</guid>
+      <guid>https://matthewsmith.rbind.io/tags/visualisation/</guid>
       <description></description>
     </item>
     

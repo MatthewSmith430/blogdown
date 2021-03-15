@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Social Network Analysis on Network Science</title>
-    <link>/tags/social-network-analysis/</link>
+    <link>https://matthewsmith.rbind.io/tags/social-network-analysis/</link>
     <description>Recent content in Social Network Analysis on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/social-network-analysis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://matthewsmith.rbind.io/tags/social-network-analysis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Network Visualisation in R - Package Comparison</title>
-      <link>/post/network-visualisation-in-r-package-comparison/</link>
+      <link>https://matthewsmith.rbind.io/post/network-visualisation-in-r-package-comparison/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/post/network-visualisation-in-r-package-comparison/</guid>
+      <guid>https://matthewsmith.rbind.io/post/network-visualisation-in-r-package-comparison/</guid>
       <description>There are a number of packages available to visualisation networks in R - ranging from those which are implement other network analysis features to those which draw on the grammar of graphics visualisation techniques. This blog post demonstrates the differences between these packages for network visualisation - in terms of amount of code required, aesthetics etc.
 DataI will visualise the same network with each package.</description>
     </item>
