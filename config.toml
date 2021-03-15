@@ -1,4 +1,4 @@
-baseurl = "https://matthewsmith.rbind.io"
+baseurl = "https://matthewsmith.rbind.io/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Network Science"
