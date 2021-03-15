@@ -136,5 +136,21 @@ I am also interested in the analysis of economic networks, more specifically, th
   Publications Journals Gorgoni, S., Amighini, A. and Smith, M. (2018) Automotive international trade networks: A comparative analysis over the last two decades, Network Science, 6(4), pp.</description>
     </item>
     
+    <item>
+      <title>R Packages</title>
+      <link>https://matthewsmith.rbind.io/page/r-packages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <guid>https://matthewsmith.rbind.io/page/r-packages/</guid>
+      <description>I have authored a number of R packages, that can all be found on my GitHub page
+The key packages are:
+ ITNr
+ CompaniesHouse
+ GVTr
+  ITNr This package provides a set of function to clean and process international trade data into a network.
+It also provides tools to implement various descriptive analysis and plots of the international trade network.
+A full tutorial can be found at: https://rpubs.</description>
+    </item>
+    
   </channel>
 </rss>

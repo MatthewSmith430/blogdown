@@ -61,7 +61,7 @@ enableEmoji= true
 
 [[menu.main]]
     name = "R Packages"
-    url = "page/r-packages/"
+    url = "page/r-packages"
     weight = 3
     
 [[menu.main]]
