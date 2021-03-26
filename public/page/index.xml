@@ -18,6 +18,7 @@
 The key packages are:
 ITNr
 CompaniesHouse
+GtR
 GVTr
 ITNrThis package provides a set of function to clean and process international trade data into a network.
 It also provides tools to implement various descriptive analysis and plots of the international trade network.
