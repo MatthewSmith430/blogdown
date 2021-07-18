@@ -16,6 +16,7 @@ I have been involved in a number of projects including:
 - Knowledge exchange and inter-organisational collaboration in industrial decarbonisation
 
 ## Publications
+For an up to date list of my publications and research activity, please see my [Google Scholar](https://scholar.google.com/citations?user=sM6feS4AAAAJ&hl=en), [Researchgate](https://www.researchgate.net/profile/Matthew-Smith-170) and [Orcid](https://orcid.org/0000-0002-3430-2176) pages. 
 
 ### Journals
 Gorgoni, S., Amighini, A. and Smith, M. (2018) Automotive international trade networks: A comparative analysis over the last two decades, Network Science, 6(4), pp. 571–606.  
