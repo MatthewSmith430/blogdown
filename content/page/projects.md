@@ -21,9 +21,21 @@ For an up to date list of my publications and research activity, please see my [
 ### Journals
 Gorgoni, S., Amighini, A. and Smith, M. (2018) Automotive international trade networks: A comparative analysis over the last two decades, Network Science, 6(4), pp. 571–606.  
 
+Kenny, L., Hassan, R., Bacchus, L. J., Smith, M., Shell-Duncan, B., Dagadu, N. A., Muriuki, A., Aden, A. H., Jelle, I. A., Cislaghi, B. and Hossain, M. (2021) Reproductive health decision making among nomadic pastoralists in North Eastern Kenya: a qualitative social network analysis, Reproductive Health, 18(1), p. 108.  
+
+Rocha, L. E. C., Ryckebusch, J., Schoors, K. and Smith, M. (2021) The scaling of social interactions across animal species, Scientific Reports, 11(1), p. 12584.  
+
+Sarabi, Y. and Smith, M. (2021) Busy female directors: an exploratory analysis of the impact of quotas and interest groups, Gender in Management: An International Journal, Emerald Publishing Limited, 36(3), pp. 368–385.  
+
+Sarabi, Y., Smith, M., McGregor, H. and Christopoulos, D. (2021) Market ranking and network structure: pathway to dominance, Management Decision, Available at: https://doi.org/10.1108/MD-04-2020-0473.  
+
+Sarabi, Y., Smith, M., McGregor, H. and Christopoulos, D. (2021) Gendered brokerage and firm performance – An interlock analysis of the UK, International Journal of Productivity and Performance Management, Available at: https://doi.org/10.1108/IJPPM-01-2021-0022.
+
 Smith, M., Gorgoni, S. and Cronin, B. (2019) International production and trade in a high-tech industry: A multilevel network analysis, Social Networks, 59, pp. 50–60.  
 
-Smith, M. and Sarabi, Y. (2020) UK trading patterns within and between regions in the automotive sector—A network analysis, The World Economy, Wiley Online Library.  
+Smith, M. and Sarabi, Y. (2021) UK trading patterns within and between regions in the automotive sector—A network analysis, The World Economy, 44(2), pp. 510–529.  
+
+Smith, M. and Sarabi, Y. (2021) ‘What do interlocks do’ revisited – a bibliometric analysis, Management Research Review, Emerald Publishing Limited, 44(4), pp. 642–659.
 
 ### Books
 Gorgoni, S., Amighini, A. and Smith, M. (eds.) (2018) Networks of International Trade and Investment: Understanding Globalisation Through the Lens of Network Analysis, Wilmington, DE, Vernon Press.  
@@ -40,4 +52,8 @@ Smith, M., Gorgoni, S. and Cronin, B. (2018) The international fragmentation of 
 Williams, A., Dovey, J., Cronin, B., Garside, P., Flintham, M., Smith, M., Barrett, D., Brooks, R., Boddington, A. and Taylor, F. (2017) The Hidden Story: understanding knowledge exchange partnerships with the creative economy,.
 
 ### Working Papers
-Smith, M., Gorgoni, S. and Cronin, B. (2016) The fragmentation of production and the competitiveness of nations in the automotive sector--A network approach.
+Smith, M., Gorgoni, S. and Cronin, B. (2016) The fragmentation of production and the competitiveness of nations in the automotive sector--A network approach.  
+
+Smith, M. and Sarabi, Y. (2021) Trading patterns within and between regions: a network analysis, arXiv:2107.01696 [econ, q-fin], [online] Available at: http://arxiv.org/abs/2107.01696.  
+
+Zádor, Z., Zhu, Z., Smith, M. and Gorgoni, S. (2021) A Weighted and Normalized Gould-Fernandez Brokerage Measure, arXiv:2107.01117 [physics], Available at: http://arxiv.org/abs/2107.01117.
