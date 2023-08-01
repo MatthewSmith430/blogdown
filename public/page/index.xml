@@ -5,6 +5,7 @@
     <link>https://matthewsmith.rbind.io/page/</link>
     <description>Recent content in Pages on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://matthewsmith.rbind.io/page/index.xml" rel="self" type="application/rss+xml" />
@@ -16,13 +17,14 @@
       <guid>https://matthewsmith.rbind.io/page/r-packages/</guid>
       <description>I have authored a number of R packages, that can all be found on my GitHub page
 The key packages are:
-ITNr
-CompaniesHouse
-GtR
-GVTr
-ITNrThis package provides a set of function to clean and process international trade data into a network.
+ITNr
+CompaniesHouse
+GtR
+GVTr
+ITNrThis package provides a set of function to clean and process international trade data into a network.
 It also provides tools to implement various descriptive analysis and plots of the international trade network.
-This package is also available on CRAN.</description>
+This package is also available on CRAN.
+CompaniesHouseThis package scrapes company data from Companies House, which provides information on UK companies.</description>
     </item>
     
     <item>
@@ -32,9 +34,10 @@ This package is also available on CRAN.</description>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>https://matthewsmith.rbind.io/page/about/</guid>
       <description>My name is Matthew Smith and I am currently a Lecturer in Strategy at Edinburgh Napier University. My research interests focus on the application of social network analysis to a range of problems in international business and management. These include:
-  Analysis of two-mode and one-mode networks of interlocking directorates
-  Women executives on boards of UK FTSE 350 companies
-  Global production networks and Global Value Chains(GVCs)</description>
+Analysis of two-mode and one-mode networks of interlocking directorates
+Women executives on boards of UK FTSE 350 companies
+Global production networks and Global Value Chains(GVCs)
+Network Analysis of International Trade Networks</description>
     </item>
     
     <item>
@@ -44,11 +47,11 @@ This package is also available on CRAN.</description>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>https://matthewsmith.rbind.io/page/projects/</guid>
       <description>Projects I have been involved in a number of projects including:
-  Fragmentation of production
-  Women executives on boards of UK FTSE 350 companies
-  Knowledge exchange and inter-organisational collaboration
-  Publications For an up to date list of my publications and research activity, please see my Google Scholar, Researchgate and Orcid pages.
-Journals 2023 Apgar, M., Fournie, G., Haesler, B., Higdon, G.L., Kenny, L., Oppel, A.</description>
+Fragmentation of production
+Women executives on boards of UK FTSE 350 companies
+Knowledge exchange and inter-organisational collaboration
+Publications For an up to date list of my publications and research activity, please see my Google Scholar, Researchgate and Orcid pages.
+Journals 2023 Apgar, M., Fournie, G., Haesler, B., Higdon, G.L., Kenny, L., Oppel, A., Pauls, E., Smith, M., Snijder, M., Vink, D.</description>
     </item>
     
   </channel>

@@ -5,6 +5,7 @@
     <link>https://matthewsmith.rbind.io/tags/visualisation/</link>
     <description>Recent content in Visualisation on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://matthewsmith.rbind.io/tags/visualisation/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +16,7 @@
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>https://matthewsmith.rbind.io/post/network-visualisation-in-r-package-comparison/</guid>
       <description>There are a number of packages available to visualisation networks in R - ranging from those which are implement other network analysis features to those which draw on the grammar of graphics visualisation techniques. This blog post demonstrates the differences between these packages for network visualisation - in terms of amount of code required, aesthetics etc.
-DataI will visualise the same network with each package.</description>
+DataI will visualise the same network with each package. An International Trade Network (ITN), where the nodes are countries and the ties between them are trade.</description>
     </item>
     
     <item>
@@ -26,7 +27,7 @@ DataI will visualise the same network with each package.</description>
       <guid>https://matthewsmith.rbind.io/post/country-networks-and-flags/</guid>
       <description>Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the ggflags packages and how to use it in network visualisation.
 I am creating this visualisation in R, and relying on a number of packages:
-ITNr for the international trade network data that we use in the example. However, you the visualisation steps I will outline can be applied to any country level network (that is a set of countries connect by any links - this could be trade, investment etc.</description>
+ITNr for the international trade network data that we use in the example. However, you the visualisation steps I will outline can be applied to any country level network (that is a set of countries connect by any links - this could be trade, investment etc.</description>
     </item>
     
   </channel>

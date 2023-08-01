@@ -5,6 +5,7 @@
     <link>https://matthewsmith.rbind.io/tags/sna/</link>
     <description>Recent content in SNA on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://matthewsmith.rbind.io/tags/sna/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +16,7 @@
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>https://matthewsmith.rbind.io/post/network-visualisation-in-r-package-comparison/</guid>
       <description>There are a number of packages available to visualisation networks in R - ranging from those which are implement other network analysis features to those which draw on the grammar of graphics visualisation techniques. This blog post demonstrates the differences between these packages for network visualisation - in terms of amount of code required, aesthetics etc.
-DataI will visualise the same network with each package.</description>
+DataI will visualise the same network with each package. An International Trade Network (ITN), where the nodes are countries and the ties between them are trade.</description>
     </item>
     
     <item>
@@ -27,7 +28,7 @@ DataI will visualise the same network with each package.</description>
       <description>International Trade Network (ITN) Analysis in RA new version of my package ITNr (0.2.0) is now on CRAN!
 The ITNr package presents a set of functions of to clean trade data, implement desciptitve analysis of the ITN and create a range of plots.
 I have updated and corrected the documentation for function is the last version, and have added several new functions. These include:
-core_periphery_weighted: To identify whether nodes belong to the core/periphery in weighted directed/undirected networks.</description>
+core_periphery_weighted: To identify whether nodes belong to the core/periphery in weighted directed/undirected networks.</description>
     </item>
     
   </channel>
