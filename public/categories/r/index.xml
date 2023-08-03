@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Network Science</title>
-    <link>https://matthewsmith.rbind.io/categories/r/</link>
+    <link>/categories/r/</link>
     <description>Recent content in R on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
-    <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://matthewsmith.rbind.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ggplot &amp; maps</title>
-      <link>https://matthewsmith.rbind.io/post/ggplot-maps/</link>
+      <link>/post/ggplot-maps/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/post/ggplot-maps/</guid>
+      <guid>/post/ggplot-maps/</guid>
       <description>Recently, I was attempting to layer plots created using ggplot onto a map. I came across this example, and it was exactly what I wanted. It produced this plot using a package called ggsubplot
 However, after trying to install and use ggsubplot I found out that it has been deprecated for some time (now incompatable with current versions of ggplot2) and has been since removed from CRAN, as detailed here.</description>
     </item>
     
     <item>
       <title>Network Visualisation in R - Package Comparison</title>
-      <link>https://matthewsmith.rbind.io/post/network-visualisation-in-r-package-comparison/</link>
+      <link>/post/network-visualisation-in-r-package-comparison/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/post/network-visualisation-in-r-package-comparison/</guid>
+      <guid>/post/network-visualisation-in-r-package-comparison/</guid>
       <description>There are a number of packages available to visualisation networks in R - ranging from those which are implement other network analysis features to those which draw on the grammar of graphics visualisation techniques. This blog post demonstrates the differences between these packages for network visualisation - in terms of amount of code required, aesthetics etc.
 DataI will visualise the same network with each package. An International Trade Network (ITN), where the nodes are countries and the ties between them are trade.</description>
     </item>
     
     <item>
       <title>Country Networks and Flags</title>
-      <link>https://matthewsmith.rbind.io/post/country-networks-and-flags/</link>
+      <link>/post/country-networks-and-flags/</link>
       <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/post/country-networks-and-flags/</guid>
+      <guid>/post/country-networks-and-flags/</guid>
       <description>Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the ggflags packages and how to use it in network visualisation.
 I am creating this visualisation in R, and relying on a number of packages:
 ITNr for the international trade network data that we use in the example. However, you the visualisation steps I will outline can be applied to any country level network (that is a set of countries connect by any links - this could be trade, investment etc.</description>
@@ -42,10 +42,10 @@ ITNr for the international trade network data that we use in the example. Howeve
     
     <item>
       <title>ITNr Version 0.2.0</title>
-      <link>https://matthewsmith.rbind.io/post/itnr-version-0-2-0/</link>
+      <link>/post/itnr-version-0-2-0/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/post/itnr-version-0-2-0/</guid>
+      <guid>/post/itnr-version-0-2-0/</guid>
       <description>International Trade Network (ITN) Analysis in RA new version of my package ITNr (0.2.0) is now on CRAN!
 The ITNr package presents a set of functions of to clean trade data, implement desciptitve analysis of the ITN and create a range of plots.
 I have updated and corrected the documentation for function is the last version, and have added several new functions. These include:
@@ -54,10 +54,10 @@ core_periphery_weighted: To identify whether nodes belong to the core/periphery 
     
     <item>
       <title>Creating R packages, R markdown and blogdown</title>
-      <link>https://matthewsmith.rbind.io/post/creating-r-packages-using-r-markdown-and-blogdown/</link>
+      <link>/post/creating-r-packages-using-r-markdown-and-blogdown/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/post/creating-r-packages-using-r-markdown-and-blogdown/</guid>
+      <guid>/post/creating-r-packages-using-r-markdown-and-blogdown/</guid>
       <description>As this my very first blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.
 PackagesThroughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.</description>
     </item>

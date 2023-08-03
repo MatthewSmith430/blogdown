@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Network Science</title>
-    <link>https://matthewsmith.rbind.io/page/</link>
+    <link>/page/</link>
     <description>Recent content in Pages on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
-    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://matthewsmith.rbind.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R Packages</title>
-      <link>https://matthewsmith.rbind.io/page/r-packages/</link>
+      <link>/page/r-packages/</link>
       <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/page/r-packages/</guid>
+      <guid>/page/r-packages/</guid>
       <description>I have authored a number of R packages, that can all be found on my GitHub page
 The key packages are:
 ITNr
@@ -29,10 +29,10 @@ CompaniesHouseThis package scrapes company data from Companies House, which pro
     
     <item>
       <title>About me</title>
-      <link>https://matthewsmith.rbind.io/page/about/</link>
+      <link>/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/page/about/</guid>
+      <guid>/page/about/</guid>
       <description>My name is Matthew Smith and I am currently a Lecturer in Strategy at Edinburgh Napier University. My research interests focus on the application of social network analysis to a range of problems in international business and management. These include:
 Analysis of two-mode and one-mode networks of interlocking directorates
 Women executives on boards of UK FTSE 350 companies
@@ -42,10 +42,10 @@ Network Analysis of International Trade Networks</description>
     
     <item>
       <title>Projects and Publications</title>
-      <link>https://matthewsmith.rbind.io/page/projects/</link>
+      <link>/page/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/page/projects/</guid>
+      <guid>/page/projects/</guid>
       <description>Projects I have been involved in a number of projects including:
 Fragmentation of production
 Women executives on boards of UK FTSE 350 companies

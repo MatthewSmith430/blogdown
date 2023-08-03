@@ -13,6 +13,7 @@ pygmentsCodefencesGuessSyntax = true
 #disqusShortname = "XXX"
 #googleAnalytics = "UA-150532545-1"
 enableEmoji= true
+relativeURLs = true
 
 [Params]
   subtitle = "Matthew Smith"

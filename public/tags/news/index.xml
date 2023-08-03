@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>news on Network Science</title>
-    <link>https://matthewsmith.rbind.io/tags/news/</link>
+    <link>/tags/news/</link>
     <description>Recent content in news on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
-    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://matthewsmith.rbind.io/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Job Update 2020</title>
-      <link>https://matthewsmith.rbind.io/post/job-update-2020/</link>
+      <link>/post/job-update-2020/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/post/job-update-2020/</guid>
+      <guid>/post/job-update-2020/</guid>
       <description>I am very happy to annouce that I have joined Edinburgh Napier University as a Lecturer in Strategy. I hope to make a signifcant contribution to the group and continue my research on the application of social network analysis to economic and management topics.</description>
     </item>
     
     <item>
       <title>Job Update</title>
-      <link>https://matthewsmith.rbind.io/post/job-update/</link>
+      <link>/post/job-update/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/post/job-update/</guid>
+      <guid>/post/job-update/</guid>
       <description>In September 2018, I joined the University of Greenwich as a Lecturer in International Business (IB), after completing my postodc at the University of Oxford. I am part of the Centre for Business Network Analysis (CBNA), where I hope to make a signifcant contribution to the centre and continue my research on the application of social network analysis to economic areas.</description>
     </item>
     

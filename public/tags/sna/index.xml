@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SNA on Network Science</title>
-    <link>https://matthewsmith.rbind.io/tags/sna/</link>
+    <link>/tags/sna/</link>
     <description>Recent content in SNA on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
-    <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://matthewsmith.rbind.io/tags/sna/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/sna/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Network Visualisation in R - Package Comparison</title>
-      <link>https://matthewsmith.rbind.io/post/network-visualisation-in-r-package-comparison/</link>
+      <link>/post/network-visualisation-in-r-package-comparison/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/post/network-visualisation-in-r-package-comparison/</guid>
+      <guid>/post/network-visualisation-in-r-package-comparison/</guid>
       <description>There are a number of packages available to visualisation networks in R - ranging from those which are implement other network analysis features to those which draw on the grammar of graphics visualisation techniques. This blog post demonstrates the differences between these packages for network visualisation - in terms of amount of code required, aesthetics etc.
 DataI will visualise the same network with each package. An International Trade Network (ITN), where the nodes are countries and the ties between them are trade.</description>
     </item>
     
     <item>
       <title>ITNr Version 0.2.0</title>
-      <link>https://matthewsmith.rbind.io/post/itnr-version-0-2-0/</link>
+      <link>/post/itnr-version-0-2-0/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/post/itnr-version-0-2-0/</guid>
+      <guid>/post/itnr-version-0-2-0/</guid>
       <description>International Trade Network (ITN) Analysis in RA new version of my package ITNr (0.2.0) is now on CRAN!
 The ITNr package presents a set of functions of to clean trade data, implement desciptitve analysis of the ITN and create a range of plots.
 I have updated and corrected the documentation for function is the last version, and have added several new functions. These include:

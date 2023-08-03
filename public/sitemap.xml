@@ -2,98 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://matthewsmith.rbind.io/</loc>
+    <loc>/</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/page/</loc>
+    <loc>/page/</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/page/r-packages/</loc>
+    <loc>/page/r-packages/</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/post/job-update-2020/</loc>
+    <loc>/post/job-update-2020/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/news/</loc>
+    <loc>/tags/news/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/categories/news/</loc>
+    <loc>/categories/news/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/ggplot/</loc>
+    <loc>/tags/ggplot/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/post/ggplot-maps/</loc>
+    <loc>/post/ggplot-maps/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/maps/</loc>
+    <loc>/tags/maps/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/categories/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/post/job-update/</loc>
+    <loc>/post/job-update/</loc>
     <lastmod>2018-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/post/network-visualisation-in-r-package-comparison/</loc>
+    <loc>/post/network-visualisation-in-r-package-comparison/</loc>
     <lastmod>2018-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/sna/</loc>
+    <loc>/tags/sna/</loc>
     <lastmod>2018-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/social-network-analysis/</loc>
+    <loc>/tags/social-network-analysis/</loc>
     <lastmod>2018-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/visualisation/</loc>
+    <loc>/tags/visualisation/</loc>
     <lastmod>2018-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/country-networks/</loc>
+    <loc>/tags/country-networks/</loc>
     <lastmod>2018-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/post/country-networks-and-flags/</loc>
+    <loc>/post/country-networks-and-flags/</loc>
     <lastmod>2018-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/cran/</loc>
+    <loc>/tags/cran/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/international-trade/</loc>
+    <loc>/tags/international-trade/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/post/itnr-version-0-2-0/</loc>
+    <loc>/post/itnr-version-0-2-0/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/r-package/</loc>
+    <loc>/tags/r-package/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/blogdown/</loc>
+    <loc>/tags/blogdown/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/post/creating-r-packages-using-r-markdown-and-blogdown/</loc>
+    <loc>/post/creating-r-packages-using-r-markdown-and-blogdown/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/github/</loc>
+    <loc>/tags/github/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/categories/r-markdown/</loc>
+    <loc>/categories/r-markdown/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/tags/r-markdown/</loc>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/page/about/</loc>
+    <loc>/page/about/</loc>
   </url><url>
-    <loc>https://matthewsmith.rbind.io/page/projects/</loc>
+    <loc>/page/projects/</loc>
   </url>
 </urlset>
