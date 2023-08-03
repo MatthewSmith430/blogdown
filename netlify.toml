@@ -10,8 +10,8 @@
 #  HUGO_THEME = "repo"
 #  HUGO_BASEURL = "/"
 
-[context.production.environment]
-  HUGO_ENV = "production"
+#[context.production.environment]
+#  HUGO_ENV = "production"
   
 [context.production.environment]
   HUGO_VERSION = "0.116.1"# if older, use format: 0.53 (no trailing zero)
