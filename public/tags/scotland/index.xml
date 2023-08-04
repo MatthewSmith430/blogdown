@@ -2,19 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scotland on Network Science</title>
-    <link>https://matthewsmith.rbind.io/tags/scotland/</link>
+    <link>/tags/scotland/</link>
     <description>Recent content in Scotland on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
-    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://matthewsmith.rbind.io/tags/scotland/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/scotland/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SNAS - SNA Hub</title>
-      <link>https://matthewsmith.rbind.io/post/2023-08-01-snas-sna-hub/</link>
-      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <title>SNA Hub</title>
+      <link>/post/2023-08-04-sna-hub/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>https://matthewsmith.rbind.io/post/2023-08-01-snas-sna-hub/</guid>
-      <description></description>
+      <guid>/post/2023-08-04-sna-hub/</guid>
+      <description>![SNAS_logo](images/SNA Scotland Logo V1 - Large text_white background.jpg)
+Thinking about using Social Network Analysis – try the SNA Hub In 2021, the Social Network Analysis in Scotland group (SNAS) developed the Social Network Analysis (SNA) Hub that is hosted on the Edinburgh Napier University (ENU) Open Moodle platform. The SNA Hub can be accessed here.
+The SNA Hub is intended to be a beginner’s guide to Social Network Analysis and how to use this methodology.</description>
     </item>
     
   </channel>
