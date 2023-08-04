@@ -8,7 +8,16 @@
     <language>en</language>
     <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
-    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blogdown</title>
+      <link>/tags/blogdown/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <guid>/tags/blogdown/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>news</title>
       <link>/tags/news/</link>
@@ -105,15 +114,6 @@
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>/tags/r-package/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogdown</title>
-      <link>/tags/blogdown/</link>
-      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
-      <guid>/tags/blogdown/</guid>
       <description></description>
     </item>
     

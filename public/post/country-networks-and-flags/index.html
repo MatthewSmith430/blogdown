@@ -65,7 +65,7 @@ ITNr for the international trade network data that we use in the example. Howeve
   "headline": "Country Networks and Flags",
   "description" : "Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the ggflags packages and how to use it in network visualisation.\nI am creating this visualisation in R, and relying on a number of packages:\nITNr for the international trade network data that we use in the example. However, you the visualisation steps I will outline can be applied to any country level network (that is a set of countries connect by any links - this could be trade, investment etc.",
   "inLanguage" : "en",
-  "wordCount":  513 ,
+  "wordCount":  589 ,
   "datePublished" : "2018-05-19T00:00:00",
   "dateModified" : "2018-05-19T00:00:00",
   "image" : "\/img\/NetworkScience2a.png",
@@ -287,80 +287,93 @@ ITNr for the international trade network data that we use in the example. Howeve
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-
-<p>Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the <code>ggflags</code> packages and how to use it in network visualisation.</p>
+        <p>Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the <code>ggflags</code> packages and how to use it in network visualisation.</p>
 <p>I am creating this visualisation in R, and relying on a number of packages:</p>
 <ul>
-<li><p><code>ITNr</code> for the international trade network data that we use in the example. However, you the visualisation steps I will outline can be applied to any country level network (that is a set of countries connect by any links - this could be trade, investment etc.)</p></li>
-<li><p><code>ggflags</code> to visualise the nodes as flags. This package is available on GitHub (currently not on CRAN)</p></li>
-<li><p><code>ggnetwork</code> is used to plot the network</p></li>
-<li><p><code>countrycode</code> and <code>magrittr</code> to process node names into the correct form to be used by <code>ggflags</code></p></li>
-<li><p>I also use <code>igraph</code> and <code>intergraph</code> as the example network from <code>ITNr</code> is a <code>igraph</code> object</p></li>
+<li>
+<p><code>ITNr</code> for the international trade network data that we use in the example. However, you the visualisation steps I will outline can be applied to any country level network (that is a set of countries connect by any links - this could be trade, investment etc.)</p>
+</li>
+<li>
+<p><code>ggflags</code> to visualise the nodes as flags. This package is available on GitHub (currently not on CRAN)</p>
+</li>
+<li>
+<p><code>ggnetwork</code> is used to plot the network</p>
+</li>
+<li>
+<p><code>countrycode</code> and <code>magrittr</code> to process node names into the correct form to be used by <code>ggflags</code></p>
+</li>
+<li>
+<p>I also use <code>igraph</code> and <code>intergraph</code> as the example network from <code>ITNr</code> is a <code>igraph</code> object</p>
+</li>
 </ul>
 <p><em>Update: An example of a published article using these flag network visualisations can be found <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/twec.13006">here</a></em></p>
-<div id="load-clean-and-process-network-data" class="section level1">
-<h1>Load, clean and process network data</h1>
+<h1 id="load-clean-and-process-network-data">Load, clean and process network data</h1>
 <p>First we load the example data from the <code>ITNr</code>, an example International Trade Network (ITN). We also calculate network centrality metrics, as these can be used later in the visualisation - such as setting node size based on centrality.</p>
-<pre class="r"><code>library(ITNr)
-
-data(&quot;ELEnet16&quot;)
-
-## Centrality Measures
-ITNcent&lt;-ITNcentrality(ELEnet16)
-
-## Add these as attributes to the igraph object
-library(igraph)
-V(ELEnet16)$cent&lt;-ITNcent$Weighted.Out.Degree
-V(ELEnet16)$centALL&lt;-ITNcent$Weighted.Degree.All</code></pre>
-<p>We then need to convert this into an object compatible with <code>ggnetwork</code> so that we can take advantage of the <code>ggflags</code>functionality.</p>
-<pre class="r"><code>library(ggnetwork)
-library(intergraph)
-
-## Convert igraph object to network object
-ITNnet&lt;-asNetwork(ELEnet16)
-
-##Convert this to ggnetwork dataframe
-ITN&lt;-ggnetwork(ITNnet)</code></pre>
-<p>Before we can visualise this data, we need to do some additional cleaning, such as making use the <code>ggflags</code> package can recognise the country names. <code>ggflags</code> needs the country names to be in lowercase and in the form of 2 digit ISO codes - here is where the <code>countrycodes</code> packages is very useful.</p>
-<pre class="r"><code>library(countrycode)
-# Create new column called country
-# Need to make sure the vertex names are characters,
-# as ggnetwork may have converted them to factors.
-
-ITN$country&lt;-countrycode(as.character(ITN$vertex.names),
-                         &quot;iso3c&quot;,&quot;iso2c&quot;)
-
-# In this example - the vertex anmes are 3 digit ISO codes
-# However, countrycode has a wide range of function to 
-# convert country names to 2 sigit iso codes
-
-# We then need to make the codes lowercase
-library(magrittr)
-ITN$country%&lt;&gt;%tolower()</code></pre>
-</div>
-<div id="network-visualisation" class="section level1">
-<h1>Network Visualisation</h1>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">ITNr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">data</span><span class="p">(</span><span class="s">&#34;ELEnet16&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">## Centrality Measures</span>
+</span></span><span class="line"><span class="cl"><span class="n">ITNcent</span><span class="o">&lt;-</span><span class="nf">ITNcentrality</span><span class="p">(</span><span class="n">ELEnet16</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">## Add these as attributes to the igraph object</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">igraph</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">V</span><span class="p">(</span><span class="n">ELEnet16</span><span class="p">)</span><span class="o">$</span><span class="n">cent</span><span class="o">&lt;-</span><span class="n">ITNcent</span><span class="o">$</span><span class="n">Weighted.Out.Degree</span>
+</span></span><span class="line"><span class="cl"><span class="nf">V</span><span class="p">(</span><span class="n">ELEnet16</span><span class="p">)</span><span class="o">$</span><span class="n">centALL</span><span class="o">&lt;-</span><span class="n">ITNcent</span><span class="o">$</span><span class="n">Weighted.Degree.All</span>
+</span></span></code></pre></div><p>We then need to convert this into an object compatible with <code>ggnetwork</code> so that we can take advantage of the <code>ggflags</code>functionality.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">ggnetwork</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">intergraph</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">## Convert igraph object to network object</span>
+</span></span><span class="line"><span class="cl"><span class="n">ITNnet</span><span class="o">&lt;-</span><span class="nf">asNetwork</span><span class="p">(</span><span class="n">ELEnet16</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">##Convert this to ggnetwork dataframe</span>
+</span></span><span class="line"><span class="cl"><span class="n">ITN</span><span class="o">&lt;-</span><span class="nf">ggnetwork</span><span class="p">(</span><span class="n">ITNnet</span><span class="p">)</span>
+</span></span></code></pre></div><p>Before we can visualise this data, we need to do some additional cleaning, such as making use the <code>ggflags</code> package can recognise the country names. <code>ggflags</code> needs the country names to be in lowercase and in the form of 2 digit ISO codes - here is where the <code>countrycodes</code> packages is very useful.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">countrycode</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Create new column called country</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Need to make sure the vertex names are characters,</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># as ggnetwork may have converted them to factors.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">ITN</span><span class="o">$</span><span class="n">country</span><span class="o">&lt;-</span><span class="nf">countrycode</span><span class="p">(</span><span class="nf">as.character</span><span class="p">(</span><span class="n">ITN</span><span class="o">$</span><span class="n">vertex.names</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">                         <span class="s">&#34;iso3c&#34;</span><span class="p">,</span><span class="s">&#34;iso2c&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># In this example - the vertex anmes are 3 digit ISO codes</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># However, countrycode has a wide range of function to </span>
+</span></span><span class="line"><span class="cl"><span class="c1"># convert country names to 2 sigit iso codes</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># We then need to make the codes lowercase</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">magrittr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ITN</span><span class="o">$</span><span class="n">country</span><span class="o">%&lt;&gt;%</span><span class="nf">tolower</span><span class="p">()</span>
+</span></span></code></pre></div><h1 id="network-visualisation">Network Visualisation</h1>
 <p>THe data is now in a form, where we can plot the network and make use of the <code>ggflags</code> package. In this example node size is based on weighted out degree centrality and tie size is based on the level of trade in the network (the edge weight in the <code>igraph</code> object)</p>
-<pre class="r"><code>#First install ggflags
-devtools::install_github(&quot;rensa/ggflags&quot;)
-library(ggflags)
-# I would recommend opening a tiff file, so that you get a higher quality visualisation
-tiff(&#39;Example.tiff&#39;, units=&quot;in&quot;, width=6, height=5, res=300)
-
-ggplot(ITN, aes(x = x, y = y, xend = xend, yend = yend,
-                country=country,size=cent)) +
-  geom_edges(size = E(ELEnet16)$weight*.5,#the edge weight from the igraph object
-             color=&quot;grey&quot;) +
-  geom_flag() + 
-  scale_size(range = c(2, 13))+ #Node size scale
-  guides(colour=FALSE,size=FALSE)+ #Remove the legends
-  theme_blank()
-
-dev.off()</code></pre>
-<p><img src="../../post/2018-05-19-country-networks-and-flags_files/figure-html/full-1.png" width="672" /></p>
-</div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1">#First install ggflags</span>
+</span></span><span class="line"><span class="cl"><span class="n">devtools</span><span class="o">::</span><span class="nf">install_github</span><span class="p">(</span><span class="s">&#34;rensa/ggflags&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">ggflags</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># I would recommend opening a tiff file, so that you get a higher quality visualisation</span>
+</span></span><span class="line"><span class="cl"><span class="nf">tiff</span><span class="p">(</span><span class="s">&#39;Example.tiff&#39;</span><span class="p">,</span> <span class="n">units</span><span class="o">=</span><span class="s">&#34;in&#34;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="m">6</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="m">5</span><span class="p">,</span> <span class="n">res</span><span class="o">=</span><span class="m">300</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">ggplot</span><span class="p">(</span><span class="n">ITN</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">y</span><span class="p">,</span> <span class="n">xend</span> <span class="o">=</span> <span class="n">xend</span><span class="p">,</span> <span class="n">yend</span> <span class="o">=</span> <span class="n">yend</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">country</span><span class="o">=</span><span class="n">country</span><span class="p">,</span><span class="n">size</span><span class="o">=</span><span class="n">cent</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_edges</span><span class="p">(</span><span class="n">size</span> <span class="o">=</span> <span class="nf">E</span><span class="p">(</span><span class="n">ELEnet16</span><span class="p">)</span><span class="o">$</span><span class="n">weight</span><span class="o">*</span><span class="m">.5</span><span class="p">,</span><span class="c1">#the edge weight from the igraph object</span>
+</span></span><span class="line"><span class="cl">             <span class="n">color</span><span class="o">=</span><span class="s">&#34;grey&#34;</span><span class="p">)</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_flag</span><span class="p">()</span> <span class="o">+</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">scale_size</span><span class="p">(</span><span class="n">range</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">2</span><span class="p">,</span> <span class="m">13</span><span class="p">))</span><span class="o">+</span> <span class="c1">#Node size scale</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">guides</span><span class="p">(</span><span class="n">colour</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">,</span><span class="n">size</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span><span class="o">+</span> <span class="c1">#Remove the legends</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme_blank</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">dev.off</span><span class="p">()</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-mysql" data-lang="mysql"><span class="line"><span class="cl"><span class="c1">## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+</span></span></span><span class="line"><span class="cl"><span class="c1">## ℹ Please use `linewidth` instead.
+</span></span></span><span class="line"><span class="cl"><span class="c1">## This warning is displayed once every 8 hours.
+</span></span></span><span class="line"><span class="cl"><span class="c1">## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
+</span></span></span><span class="line"><span class="cl"><span class="c1">## generated.
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-mysql" data-lang="mysql"><span class="line"><span class="cl"><span class="c1">## Warning: The `&lt;scale&gt;` argument of `guides()` cannot be `FALSE`. Use &#34;none&#34; instead as
+</span></span></span><span class="line"><span class="cl"><span class="c1">## of ggplot2 3.3.4.
+</span></span></span><span class="line"><span class="cl"><span class="c1">## This warning is displayed once every 8 hours.
+</span></span></span><span class="line"><span class="cl"><span class="c1">## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
+</span></span></span><span class="line"><span class="cl"><span class="c1">## generated.
+</span></span></span></code></pre></div><!-- raw HTML omitted -->
 
 
         
@@ -528,7 +541,7 @@ dev.off()</code></pre>
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2021
+            2023
           
 
           

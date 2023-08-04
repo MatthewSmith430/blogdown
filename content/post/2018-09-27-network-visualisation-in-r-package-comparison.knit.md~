@@ -1,0 +1,106 @@
+---
+title: Network Visualisation in R - Package Comparison
+author: Matthew Smith
+date: '2018-09-27'
+slug: network-visualisation-in-r-package-comparison
+categories:
+  - R
+tags:
+  - R
+  - social network analysis
+  - Visualisation
+  - SNA
+subtitle: ''
+---
+There are a number of packages available to visualisation networks in R - ranging from those which are implement other network analysis features to those which draw on the grammar of graphics visualisation techniques. This blog post demonstrates the differences between these packages for network visualisation - in terms of amount of code required, aesthetics etc.
+
+# Data
+I will visualise the same network with each package. An International Trade Network (ITN), where the nodes are countries and the ties between them are trade. I will visualise this network with nodes coloured by the regional partition the country belongs to (for example, Europe, North America, East Asia & Pacific etc).
+
+Edge and node size will be uniform (in most cases) and there will be no labels or legends in the plots.
+
+The data is an `igraph` object, and is loaded from the `ITNr` package.
+
+
+# igraph
+I will start with `igraph`, where this is a package widely used for social network analysis. This is a staple when using R for social network analysis, and often is the first approach used to plot a graph object quickly. 
+
+
+```r
+library(igraph)
+library(ITNr)
+data("ELEnet16")
+
+plot(ELEnet16, edge.arrow.size=.1, 
+     vertex.label=NA,
+     vertex.color=V(ELEnet16)$region,
+     vertex.size=5
+     ) 
+```
+
+<img src="2018-09-27-network-visualisation-in-r-package-comparison_files/figure-html/igraph-1.png" width="672" />
+
+# Statnet
+Another staple when using R for social network analysis is `statnet`. `statnet` suite of packages are also widely used for social network analysis, and implementing various models, chiefly the ERGM family of models. 
+
+
+```r
+library(statnet)
+library(ITNr)
+library(intergraph)
+
+data("ELEnet16")
+
+net<-asNetwork(ELEnet16) # Convert to a network object
+
+plot(net, vertex.col = "region",
+     vertex.cex=2,edge.col="grey")
+```
+
+<img src="2018-09-27-network-visualisation-in-r-package-comparison_files/figure-html/statnet-1.png" width="672" />
+
+# ggnetwork
+`ggnetwork` allows you to draw on `ggplot2` capabilities for network visualisation. This is very useful for people who frequently use `ggplot2` for other visualisation. Furthermore, as it is aligned with `ggplot2` it is very flexible and can be used to create bespoke visualisations (such as the example found [here](https://matthewsmith.rbind.io/post/country-networks-and-flags/)).   
+
+```r
+library(ggnetwork)
+library(ITNr)
+library(intergraph)
+
+data("ELEnet16")
+
+net<-asNetwork(ELEnet16) #ggnetwork requires a network object
+n<-ggnetwork(net)
+
+ggplot(n, aes(x = x, y = y, xend = xend, yend = yend)) +
+  geom_edges(color = "grey50") +
+  geom_nodes(aes(color = as.factor(region),size=4)) +
+  guides(color=FALSE,size=FALSE)+ #Remove legends
+  theme_blank()
+```
+
+<img src="2018-09-27-network-visualisation-in-r-package-comparison_files/figure-html/ggnetwork-1.png" width="672" />
+
+# ggnet
+`ggnet` is part of the `GGally` package. This is another package that allows to plot network objects as `ggplot` object. Yet is not as closely aligned with `ggplot` (in terms of commands and syntax) as `ggnetwork`. 
+
+
+```r
+library(GGally)
+library(intergraph)
+library(ITNr)
+data("ELEnet16")
+
+net<-asNetwork(ELEnet16) #ggnet requires a network object
+
+ggnet2(net, node.size = 6, 
+       node.color = "region", 
+       edge.size = "weight", edge.color = "grey")
+```
+
+<img src="2018-09-27-network-visualisation-in-r-package-comparison_files/figure-html/ggnet-1.png" width="672" />
+
+
+
+
+

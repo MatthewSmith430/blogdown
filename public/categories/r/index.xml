@@ -46,7 +46,7 @@ ITNr for the international trade network data that we use in the example. Howeve
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>/post/itnr-version-0-2-0/</guid>
-      <description>International Trade Network (ITN) Analysis in RA new version of my package ITNr (0.2.0) is now on CRAN!
+      <description>International Trade Network (ITN) Analysis in R A new version of my package ITNr (0.2.0) is now on CRAN!
 The ITNr package presents a set of functions of to clean trade data, implement desciptitve analysis of the ITN and create a range of plots.
 I have updated and corrected the documentation for function is the last version, and have added several new functions. These include:
 core_periphery_weighted: To identify whether nodes belong to the core/periphery in weighted directed/undirected networks.</description>
@@ -59,7 +59,7 @@ core_periphery_weighted: To identify whether nodes belong to the core/periphery 
       <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
       <guid>/post/creating-r-packages-using-r-markdown-and-blogdown/</guid>
       <description>As this my very first blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.
-PackagesThroughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.</description>
+Packages Throughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.</description>
     </item>
     
   </channel>

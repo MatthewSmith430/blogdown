@@ -13,7 +13,7 @@
       <title>Creating R packages, R markdown and blogdown - </title>
 
   <meta name="description" content="As this my very first blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.
-PackagesThroughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.">
+Packages Throughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.">
   <meta name="author" content="Matthew Smith"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -62,7 +62,7 @@ PackagesThroughout my PhD I had to create networks from international trade dat
     "name" : "Matthew Smith"
   },
   "headline": "Creating R packages, R markdown and blogdown",
-  "description" : "As this my very first blog post for this site (created using blogdown) I decided to write some comments\/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.\nPackages\rThroughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.",
+  "description" : "As this my very first blog post for this site (created using blogdown) I decided to write some comments\/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.\nPackages Throughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.",
   "inLanguage" : "en",
   "wordCount":  1148 ,
   "datePublished" : "2018-04-09T00:00:00",
@@ -85,7 +85,7 @@ PackagesThroughout my PhD I had to create networks from international trade dat
 
 <meta property="og:title" content="Creating R packages, R markdown and blogdown" />
 <meta property="og:description" content="As this my very first blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.
-PackagesThroughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.">
+Packages Throughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.">
 <meta property="og:image" content="/img/NetworkScience2a.png" />
 <meta property="og:url" content="/post/creating-r-packages-using-r-markdown-and-blogdown/" />
 <meta property="og:type" content="website" />
@@ -285,85 +285,88 @@ PackagesThroughout my PhD I had to create networks from international trade dat
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-
-<p>As this my very first blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.</p>
-<div id="packages" class="section level1">
-<h1>Packages</h1>
+        <p>As this my very first blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.</p>
+<h1 id="packages">Packages</h1>
 <p>Throughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file. I did this using excel (as at the time I was not fully familiar with R) and found it a very repetitive/laborious task. As I become more familiar with R – I did this in R and wrote a function I could use on any future data. The advantages of using an R function were instantly obvious, the process of data cleaning now took moments.</p>
 <p>I then had a number of functions related to cleaning and analysing trade data scattered across numerous .R files. Therefore, I decided to take the next step and collect all these functions into an R package. It took some time – but it was completely worth it, as creating a package has a number of benefits:</p>
 <ul>
-<li><p>All related functions are in one place, and can be easily shared with colleagues. It is much easier to share a package than a set of .R files.</p></li>
-<li><p>Writing a package provides the opportunity (and in some cases forces you) to improve your code so that it is more streamlined.</p></li>
-<li><p>Help documentation and examples. Having to write help documentations and examples is a very useful task, as you do not end up coming back to functions where there is little or no explanation of what they do. Furthermore, you can search for the help and guidance on these functions within R in the future.</p></li>
+<li>
+<p>All related functions are in one place, and can be easily shared with colleagues. It is much easier to share a package than a set of .R files.</p>
+</li>
+<li>
+<p>Writing a package provides the opportunity (and in some cases forces you) to improve your code so that it is more streamlined.</p>
+</li>
+<li>
+<p>Help documentation and examples. Having to write help documentations and examples is a very useful task, as you do not end up coming back to functions where there is little or no explanation of what they do. Furthermore, you can search for the help and guidance on these functions within R in the future.</p>
+</li>
 </ul>
 <p>The most useful guides on how to write an R package are:</p>
 <ul>
-<li><p><a href="http://kbroman.org/pkg_primer/" class="uri">http://kbroman.org/pkg_primer/</a></p></li>
-<li><p><a href="http://r-pkgs.had.co.nz/" class="uri">http://r-pkgs.had.co.nz/</a></p></li>
+<li>
+<p><a href="http://kbroman.org/pkg_primer/">http://kbroman.org/pkg_primer/</a></p>
+</li>
+<li>
+<p><a href="http://r-pkgs.had.co.nz/">http://r-pkgs.had.co.nz/</a></p>
+</li>
 </ul>
 <p>They provide information on how to set up an R package, write documentation, along with how to write vignettes guides to accompany your package.</p>
 <p>There are number of very useful packages to use when creating an R package including <code>devtools</code>,<code>usethis</code> and <code>roxygen2</code>.</p>
 <p>Another point to make before writing an R package is about using <code>%&gt;%</code> (pipes) in R package functions. Unless you set up pipes with <code>usethis</code>, more specially the <code>use_pipe()</code> function, avoid using pipes.</p>
-<div id="github" class="section level2">
-<h2>GitHub</h2>
+<h2 id="github">GitHub</h2>
 <p>When writing a package – you can upload this as a repository on GitHub. If, like me, you are not completely comfortable using the command line, then GitHub Desktop (or equivalents such as GitKracken), is an essential tool.</p>
 <p>I also realised that when uploading a package on GitHub a detailed readme is essential to guide user on what exactly the package does and how to properly implement various functions.</p>
 <p>I have created a number of R packages as repositories on GitHub.</p>
-</div>
-<div id="cran" class="section level2">
-<h2>CRAN</h2>
+<h2 id="cran">CRAN</h2>
 <p>Although you can upload R packages onto GitHub, where others can download and install these packages using <code>devtools</code>, packages can also be uploaded to CRAN. I have uploaded one package onto CRAN: <code>ITNr</code>.</p>
 <p>I was somewhat apprehensive about submitting a package to CRAN – as the documentation and online guidance often paints this as a daunting task. I did not necessarily find this the case - that as long as you follow the package writing guidance- you should not be discouraged from uploading it to CRAN.</p>
 <p>However, uploading a package to CRAN and maintaining is a more time consuming process than simply uploading a package to GitHub, where changes can be made easily and quickly. So there is a need to weigh the benefits of maintaining the CRAN submission with having it on GitHub.</p>
 <p>If you are submitting a package to CRAN, some advice based on the feedback I received includes:</p>
 <ul>
-<li><p>Ensure that you thoroughly check your help documentation (make sure there are no typos and that it properly matches the function code).</p></li>
-<li><p>In your R description file, in the Description section, do not start this with “This package”</p></li>
-<li><p>Unwrap examples. I wrote all example with , and received the following feedback:</p></li>
+<li>
+<p>Ensure that you thoroughly check your help documentation (make sure there are no typos and that it properly matches the function code).</p>
+</li>
+<li>
+<p>In your R description file, in the Description section, do not start this with “This package”</p>
+</li>
+<li>
+<p>Unwrap examples. I wrote all example with \dontrun{}, and received the following feedback:</p>
+</li>
 </ul>
 <blockquote>
-<p>Your examples are wrapped in , hence nothing gets tested. Please unwrap the examples if that is feasible and if they can be executed in &lt; 5 sec for each Rd file or create additionally small toy examples”</p>
+<p>Your examples are wrapped in \dontrun{}, hence nothing gets tested. Please unwrap the examples if that is feasible and if they can be executed in &lt; 5 sec for each Rd file or create additionally small toy examples”</p>
 </blockquote>
 <p>Here is an demonstration of an unwrapped example with toy example (taken from <code>ITNr</code>):</p>
-<pre class="r"><code>#&#39; @examples
-#&#39; require(igraph)
-#&#39; ##Create random International Trade Network (igraph object)
-#&#39; ITN&lt;-erdos.renyi.game(75,0.05,directed = TRUE)
-#&#39;
-#&#39; ##Add edge weights
-#&#39; E(ITN)$weight&lt;-runif(ecount(ITN), 0, 1)
-#&#39;
-#&#39; ##Add vertex names
-#&#39; V(ITN)$name&lt;-1:vcount(ITN)
-#&#39;
-#&#39; ##Calculate the centrality measures
-#&#39; ITNCENT&lt;-ITNcentrality(ITN)
-#&#39;</code></pre>
-</div>
-</div>
-<div id="r-markdown" class="section level1">
-<h1>R markdown</h1>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1">#&#39; @examples</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39; require(igraph)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39; ##Create random International Trade Network (igraph object)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39; ITN&lt;-erdos.renyi.game(75,0.05,directed = TRUE)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39; ##Add edge weights</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39; E(ITN)$weight&lt;-runif(ecount(ITN), 0, 1)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39; ##Add vertex names</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39; V(ITN)$name&lt;-1:vcount(ITN)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39; ##Calculate the centrality measures</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39; ITNCENT&lt;-ITNcentrality(ITN)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&#39;</span>
+</span></span></code></pre></div><h1 id="r-markdown">R markdown</h1>
 <p>I started using R markdown to write detailed readme/vignette files to accompany R packages on GitHub. R markdown is great and an essential tool for writing guides to using R, and can even be used to create <a href="https://rmarkdown.rstudio.com/lesson-11.html">presentations</a>. There are a number of resources to help writing R markdown – among them the R markdown cheat sheet and an introduction to r markdown provided by <a href="https://rmarkdown.rstudio.com/">RStudio</a></p>
 <p>I would also highly recommend using <a href="https://rpubs.com/">RPubs</a> to share R markdown documents – either guides for more public use or to share these documents with colleagues (that include R code and output).</p>
 <p>Only issue is that you cannot edit these once uploaded (to my knowledge). So if you notice a mistake in your RPub and want to change it – you would have to delete the RPub, and upload a new one under the same name. In my early use of R markdown, one very simple error I made, was that I forgot to run a spell check (due to familiarity with word/writer), and subsequently had to correct these mistakes in RPubs.</p>
 <p>I have been talking about R markdown, but stand alone markdown has a number of great capabilities, such as <a href="http://blog.kdheepak.com/writing-papers-with-markdown.html">academic writing and technical documents</a>. R markdown is simply markdown that allows you to bring together text, R code and R outputs in a single elegant document.</p>
 <p>Whilst you can write R markdown in RStudio, there a number of editors dedicated just to writing markdown, an overview of these is provided <a href="https://www.slant.co/topics/1852/~markdown-editors-for-windows">here</a></p>
-</div>
-<div id="blogdown" class="section level1">
-<h1>Blogdown</h1>
-<p>If you choose to make a site using blogdown it is essential you follow the guidance and instruction provided in: <a href="https://bookdown.org/yihui/blogdown/" class="uri">https://bookdown.org/yihui/blogdown/</a>. This guide provide all the details you need to produce a blog using blogdown.</p>
+<h1 id="blogdown">Blogdown</h1>
+<p>If you choose to make a site using blogdown it is essential you follow the guidance and instruction provided in: <a href="https://bookdown.org/yihui/blogdown/">https://bookdown.org/yihui/blogdown/</a>. This guide provide all the details you need to produce a blog using blogdown.</p>
 <p>I am using the beautifulhugo theme – which allows an icon. In order to create the icon from a .png file I made use of imagemagick and the magick R package. I installed imagemagick and then ran the following code:</p>
-<pre class="r"><code>library(magick)
-library(magrittr)
-
-image_read(&quot;File.png&quot;)%&gt;%
-  image_scale(&quot;32x32&quot;) %&gt;%
-  image_write(&quot;File.ico&quot;,format=&quot;ico&quot;)</code></pre>
-<p>This produced a .ico file I used when making the site.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">magick</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">magrittr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">image_read</span><span class="p">(</span><span class="s">&#34;File.png&#34;</span><span class="p">)</span><span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">image_scale</span><span class="p">(</span><span class="s">&#34;32x32&#34;</span><span class="p">)</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">image_write</span><span class="p">(</span><span class="s">&#34;File.ico&#34;</span><span class="p">,</span><span class="n">format</span><span class="o">=</span><span class="s">&#34;ico&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p>This produced a .ico file I used when making the site.</p>
 <p>Another useful resource for using blogdown can be found <a href="https://alison.rbind.io/post/up-and-running-with-blogdown/">here</a></p>
-</div>
 
 
         
@@ -531,7 +534,7 @@ image_read(&quot;File.png&quot;)%&gt;%
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2021
+            2023
           
 
           

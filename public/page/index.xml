@@ -21,10 +21,10 @@ ITNr
 CompaniesHouse
 GtR
 GVTr
-ITNrThis package provides a set of function to clean and process international trade data into a network.
+ITNr This package provides a set of function to clean and process international trade data into a network.
 It also provides tools to implement various descriptive analysis and plots of the international trade network.
 This package is also available on CRAN.
-CompaniesHouseThis package scrapes company data from Companies House, which provides information on UK companies.</description>
+CompaniesHouse This package scrapes company data from Companies House, which provides information on UK companies.</description>
     </item>
     
     <item>
