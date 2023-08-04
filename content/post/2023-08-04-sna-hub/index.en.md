@@ -1,6 +1,6 @@
 ---
 title: SNA Hub
-author: Matthew SMith
+author: Matthew Smith
 date: '2023-08-05'
 slug: []
 categories: []
