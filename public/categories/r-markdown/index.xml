@@ -6,14 +6,14 @@
     <description>Recent content in R markdown on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
-    <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
+    <managingEditor>M.Smith_2@hw.ac.uk (Matthew Smith)</managingEditor>
+    <webMaster>M.Smith_2@hw.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="/categories/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating R packages, R markdown and blogdown</title>
       <link>/post/creating-r-packages-using-r-markdown-and-blogdown/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/post/creating-r-packages-using-r-markdown-and-blogdown/</guid>
       <description>As this my very first blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.
 Packages Throughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.</description>

@@ -6,14 +6,14 @@
     <description>Recent content on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
-    <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
+    <managingEditor>M.Smith_2@hw.ac.uk (Matthew Smith)</managingEditor>
+    <webMaster>M.Smith_2@hw.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Note on deploying with Netlify</title>
       <link>/post/2023-08-04-note-on-deploying-with-netlify/</link>
       <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/post/2023-08-04-note-on-deploying-with-netlify/</guid>
       <description>This is a post for anyone coming back to update their website after some time and encountering issues. In a previous post I describe how I created the site using blogdown.
 One issue I encountered when updating my website then using blogdown::serve_site() to view it, was the that the blog posts no longer appeared on the main page. After some searching the solution was to simply update Hugo using blogdown::install_hugo(). Then to adjust the Hugo versions listed in the config.</description>
@@ -23,7 +23,7 @@ One issue I encountered when updating my website then using blogdown::serve_site
       <title>R Packages</title>
       <link>/page/r-packages/</link>
       <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/page/r-packages/</guid>
       <description>I have authored a number of R packages, that can all be found on my GitHub page
 The key packages are:
@@ -41,7 +41,7 @@ CompaniesHouse This package scrapes company data from Companies House, which pro
       <title>Job Update 2020</title>
       <link>/post/job-update-2020/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/post/job-update-2020/</guid>
       <description>I am very happy to annouce that I have joined Edinburgh Napier University as a Lecturer in Strategy. I hope to make a signifcant contribution to the group and continue my research on the application of social network analysis to economic and management topics.</description>
     </item>
@@ -50,7 +50,7 @@ CompaniesHouse This package scrapes company data from Companies House, which pro
       <title>ggplot &amp; maps</title>
       <link>/post/ggplot-maps/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/post/ggplot-maps/</guid>
       <description>Recently, I was attempting to layer plots created using ggplot onto a map. I came across this example, and it was exactly what I wanted. It produced this plot using a package called ggsubplot
 However, after trying to install and use ggsubplot I found out that it has been deprecated for some time (now incompatable with current versions of ggplot2) and has been since removed from CRAN, as detailed here.</description>
@@ -60,7 +60,7 @@ However, after trying to install and use ggsubplot I found out that it has been 
       <title>Job Update</title>
       <link>/post/job-update/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/post/job-update/</guid>
       <description>In September 2018, I joined the University of Greenwich as a Lecturer in International Business (IB), after completing my postodc at the University of Oxford. I am part of the Centre for Business Network Analysis (CBNA), where I hope to make a signifcant contribution to the centre and continue my research on the application of social network analysis to economic areas.</description>
     </item>
@@ -69,7 +69,7 @@ However, after trying to install and use ggsubplot I found out that it has been 
       <title>Network Visualisation in R - Package Comparison</title>
       <link>/post/network-visualisation-in-r-package-comparison/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/post/network-visualisation-in-r-package-comparison/</guid>
       <description>There are a number of packages available to visualisation networks in R - ranging from those which are implement other network analysis features to those which draw on the grammar of graphics visualisation techniques. This blog post demonstrates the differences between these packages for network visualisation - in terms of amount of code required, aesthetics etc.
 DataI will visualise the same network with each package. An International Trade Network (ITN), where the nodes are countries and the ties between them are trade.</description>
@@ -79,7 +79,7 @@ DataI will visualise the same network with each package. An International Trade
       <title>Country Networks and Flags</title>
       <link>/post/country-networks-and-flags/</link>
       <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/post/country-networks-and-flags/</guid>
       <description>Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the ggflags packages and how to use it in network visualisation.
 I am creating this visualisation in R, and relying on a number of packages:
@@ -90,7 +90,7 @@ ITNr for the international trade network data that we use in the example. Howeve
       <title>ITNr Version 0.2.0</title>
       <link>/post/itnr-version-0-2-0/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/post/itnr-version-0-2-0/</guid>
       <description>International Trade Network (ITN) Analysis in R A new version of my package ITNr (0.2.0) is now on CRAN!
 The ITNr package presents a set of functions of to clean trade data, implement desciptitve analysis of the ITN and create a range of plots.
@@ -102,7 +102,7 @@ core_periphery_weighted: To identify whether nodes belong to the core/periphery 
       <title>Creating R packages, R markdown and blogdown</title>
       <link>/post/creating-r-packages-using-r-markdown-and-blogdown/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/post/creating-r-packages-using-r-markdown-and-blogdown/</guid>
       <description>As this my very first blog post for this site (created using blogdown) I decided to write some comments/general points on my experience moving from a being a general R user making use of functions to writing R packages, using GitHub, and making use of markdown and blogdown.
 Packages Throughout my PhD I had to create networks from international trade data. This involved cleaning the data, removing unnecessary actors (such as territories like “Other Asia not elsewhere classified”), applying a threshold, so the network only contained ties that were some percentage of world trade and finally convert this into a network file.</description>
@@ -112,7 +112,7 @@ Packages Throughout my PhD I had to create networks from international trade dat
       <title>About me</title>
       <link>/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/page/about/</guid>
       <description>My name is Matthew Smith and I am currently a Lecturer in Strategy at Edinburgh Napier University. My research interests focus on the application of social network analysis to a range of problems in international business and management. These include:
 Analysis of two-mode and one-mode networks of interlocking directorates
@@ -125,7 +125,7 @@ Network Analysis of International Trade Networks</description>
       <title>Projects and Publications</title>
       <link>/page/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/page/projects/</guid>
       <description>Projects I have been involved in a number of projects including:
 Fragmentation of production

@@ -6,14 +6,14 @@
     <description>Recent content in Country Networks on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
-    <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
+    <managingEditor>M.Smith_2@hw.ac.uk (Matthew Smith)</managingEditor>
+    <webMaster>M.Smith_2@hw.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Sat, 19 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/country-networks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Country Networks and Flags</title>
       <link>/post/country-networks-and-flags/</link>
       <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/post/country-networks-and-flags/</guid>
       <description>Recently, I was asked whether I could create an international trade network with flags as nodes. Therefore, I thought I would write a post introducing the ggflags packages and how to use it in network visualisation.
 I am creating this visualisation in R, and relying on a number of packages:

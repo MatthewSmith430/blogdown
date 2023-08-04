@@ -6,14 +6,14 @@
     <description>Recent content in International Trade on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
-    <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
+    <managingEditor>M.Smith_2@hw.ac.uk (Matthew Smith)</managingEditor>
+    <webMaster>M.Smith_2@hw.ac.uk (Matthew Smith)</webMaster>
     <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/international-trade/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ITNr Version 0.2.0</title>
       <link>/post/itnr-version-0-2-0/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/post/itnr-version-0-2-0/</guid>
       <description>International Trade Network (ITN) Analysis in R A new version of my package ITNr (0.2.0) is now on CRAN!
 The ITNr package presents a set of functions of to clean trade data, implement desciptitve analysis of the ITN and create a range of plots.
