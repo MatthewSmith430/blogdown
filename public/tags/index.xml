@@ -8,7 +8,25 @@
     <language>en</language>
     <managingEditor>M.Smith_2@hw.ac.uk (Matthew Smith)</managingEditor>
     <webMaster>M.Smith_2@hw.ac.uk (Matthew Smith)</webMaster>
-    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scotland</title>
+      <link>/tags/scotland/</link>
+      <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
+      <guid>/tags/scotland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SNA</title>
+      <link>/tags/sna/</link>
+      <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
+      <guid>/tags/sna/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blogdown</title>
       <link>/tags/blogdown/</link>
@@ -51,15 +69,6 @@
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SNA</title>
-      <link>/tags/sna/</link>
-      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
-      <guid>/tags/sna/</guid>
       <description></description>
     </item>
     

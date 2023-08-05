@@ -6,18 +6,17 @@
     <description>Recent content in Scotland on Network Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>M.Smith3@napier.ac.uk (Matthew Smith)</managingEditor>
-    <webMaster>M.Smith3@napier.ac.uk (Matthew Smith)</webMaster>
-    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/scotland/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>M.Smith_2@hw.ac.uk (Matthew Smith)</managingEditor>
+    <webMaster>M.Smith_2@hw.ac.uk (Matthew Smith)</webMaster>
+    <lastBuildDate>Sat, 05 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/scotland/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SNA Hub</title>
       <link>/post/2023-08-04-sna-hub/</link>
-      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
-      <author>M.Smith3@napier.ac.uk (Matthew Smith)</author>
+      <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+      <author>M.Smith_2@hw.ac.uk (Matthew Smith)</author>
       <guid>/post/2023-08-04-sna-hub/</guid>
-      <description>![SNAS_logo](images/SNA Scotland Logo V1 - Large text_white background.jpg)
-Thinking about using Social Network Analysis – try the SNA Hub In 2021, the Social Network Analysis in Scotland group (SNAS) developed the Social Network Analysis (SNA) Hub that is hosted on the Edinburgh Napier University (ENU) Open Moodle platform. The SNA Hub can be accessed here.
-The SNA Hub is intended to be a beginner’s guide to Social Network Analysis and how to use this methodology.</description>
+      <description>Thinking about using Social Network Analysis – try the SNA Hub In 2021, the Social Network Analysis in Scotland group (SNAS) developed the Social Network Analysis (SNA) Hub that is hosted on the Edinburgh Napier University (ENU) Open Moodle platform. The SNA Hub can be accessed here.
+The SNA Hub is intended to be a beginner’s guide to Social Network Analysis and how to use this methodology. The SNA Hub aims to act as a resource hub for anyone starting out with SNA, including an overview of some methods and metrics, along with short introduction/taster videos on relevant software for SNA and Network Science.</description>
     </item>
     
   </channel>
