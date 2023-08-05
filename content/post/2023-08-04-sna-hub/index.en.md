@@ -12,9 +12,10 @@ subtitle: ''
 image: ''
 ---
 
-![SNAS_logo](images/SNA Scotland Logo V1 - Large text_white background.jpg)  
+# Thinking about using Social Network Analysis – try the SNA Hub  
 
-# Thinking about using Social Network Analysis – try the SNA Hub
+![SNAS_logo](images/SNAS_LOGO.jpg)
+
 In 2021, the [Social Network Analysis in Scotland group (SNAS)](https://www.sps.ed.ac.uk/research/research-project/social-network-analysis-scotland-group-snas) developed the Social Network Analysis (SNA) Hub that is hosted on the Edinburgh Napier University (ENU) Open Moodle platform. The SNA Hub can be accessed [here](https://open.napier.ac.uk/course/view.php?id=40).
 
 The SNA Hub is intended to be a beginner’s guide to Social Network Analysis and how to use this methodology. The SNA Hub aims to act as a resource hub for anyone starting out with SNA, including an overview of some methods and metrics, along with short introduction/taster videos on relevant software for SNA and Network Science. The SNA Hub also has links to relevant conferences and seminars on social network analysis, including the SNAS seminar series. 
