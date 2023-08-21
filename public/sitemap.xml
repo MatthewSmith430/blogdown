@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2023-08-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/2023-08-21-job-update-2023/</loc>
+    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/news/</loc>
+    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/</loc>
-    <lastmod>2023-08-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/scotland/</loc>
     <lastmod>2023-08-05T00:00:00+00:00</lastmod>
@@ -15,9 +24,6 @@
     <lastmod>2023-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/2023-08-04-sna-hub/</loc>
-    <lastmod>2023-08-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2023-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/blogdown/</loc>
@@ -36,9 +42,6 @@
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/job-update-2020/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/news/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/news/</loc>
