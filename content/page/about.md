@@ -9,11 +9,11 @@ My name is Matthew Smith and I am currently an Associate Professor in Social Res
 My research interests focus on the application of social network analysis to a range of problems in international business and management. 
 These include:
 
-- Analysis of two-mode  and one-mode networks of interlocking directorates 
+- Analysis of two-mode and one-mode networks of interlocking directorates 
 
 - Women executives on boards of UK FTSE 350 companies   
 
-- Global production networks and Global Value Chains(GVCs)
+- Global production networks and Global Value Chains (GVCs)
 
 - Network Analysis of International Trade Networks 
 
@@ -48,7 +48,7 @@ September 2018 – May 2019
 **PhD International Business & Economics, University of Greenwich**   
 January 2013 – September 2016   
 Title: “Corporate Networks of International Investment & Trade”  
-More details on my PhD thesis can be found [here]().  
+More details on my PhD thesis can be found [here](https://github.com/MatthewSmith430/phd_thesis).  
 Examiners: Prof Martin Everett and Dr Kai Liu.  
 
 **BSc (Hons) Financial Mathematics, Manchester Metropolitan University**  
