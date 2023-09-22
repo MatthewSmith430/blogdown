@@ -1,2 +1,2 @@
 ## Thoughts and comments on data science and social network analysis
-I am Associate Professor in Social Research Methods with interests in social network analysis, with a focus on applications to economic networks, international business & management. This webiste contains information about myself, projects I am working on, R packages I have created & other miscellaneous comments on social network analysis. 
+I am an Associate Professor in Social Research Methods with interests in social network analysis, with a focus on applications to economic networks, international business & management. This website contains information about myself, projects I am working on, R packages I have created & other miscellaneous comments on social network analysis. 
